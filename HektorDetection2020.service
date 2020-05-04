@@ -1,0 +1,8 @@
+Description=Hektor Detection 2020
+[Service]
+ExecStart=/bin/bash /home/pi/programs/HektorDetection2020/HektorDetection2020.sh
+WorkingDirectory=/home/pi/programs/HektorDetection2020/
+Restart=always
+User=pi
+[Install]
+WantedBy=multi-user.target
