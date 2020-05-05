@@ -84,7 +84,7 @@ try:
             time.sleep(0.5)
             
             # Run if sensor HIGH keeps 5 times.
-            if Counter >= 3:
+            if Counter >= 5:
                 Status = Status + " / Sensor HIGH"
                 StatusSensor = "HIGH"
                 Counter = 0
