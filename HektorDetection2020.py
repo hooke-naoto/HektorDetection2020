@@ -81,12 +81,12 @@ try:
             Counter += 1
             #forLED# GPIO.output(LED, GPIO.HIGH)
             #forLED# GPIO.output(LED, GPIO.LOW)
-            time.sleep(0.5)
+            time.sleep(0.3)
             
             # Run if sensor HIGH keeps 5 times.
             if Counter >= 5:
                 Status = Status + " / Sensor HIGH"
-                StatusSensor = "HIGH"
+                StatusSensor = "high"
                 Counter = 0
                 
                 #### Date/Time/Folder update #### START
@@ -153,10 +153,16 @@ try:
         else:
             Counter = 0
             Status = Status + " / Sensor LOW"
-            StatusSensor = "Low"
+            StatusSensor = "low"
         
         # Record results of "Main Process".
-        if StatusSensor != StatusSensorLast:
+        DoRecord = 0
+        if StatusSensor == "high":
+            DoRecord = 1
+        else:    # StatusSensor == "low"
+            if StatusSensor != StatusSensorLast:
+                DoRecord = 1
+        if DoRecord == 1:
             print (Status)
             fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
             fileobj.write(Status + "\n")
