@@ -1,0 +1,19 @@
+[20200505_201025] Sensor was HIGH. Detected labels: Finger, Pink, Light, Hand, Nail, Material property, Thumb, Flesh. Hektor was not detected... 
+[20200505_201032] Sensor was LOW. 
+[20200505_201125] Sensor was HIGH. Detected labels: Light, Room, Pink, Lighting, Material property, Ceiling, Light fixture, Interior design, House. Hektor was not detected... 
+[20200505_201128] Sensor was LOW. 
+[20200505_201146] Sensor was HIGH. Detected labels: Electronics, Wire, Cable, Technology, Electronic device, Microphone, Musical instrument accessory, Electrical wiring. Hektor was not detected... 
+[20200505_201149] Sensor was LOW. 
+[20200505_201151] Sensor was HIGH. Detected labels: Gadget, Electronics, Technology, Electronic device, Table, Video game console. Hektor was not detected... 
+[20200505_201154] Sensor was LOW. 
+[20200505_201210] Sensor was HIGH. Detected labels: Cat, Felidae, Small to medium-sized cats, Carnivore, Kitten, Ocicat, European shorthair, Whiskers, Tabby cat, Linens. Hektor was detected! 
+[20200505_201226] Sensor was LOW. 
+[20200505_201231] Sensor was HIGH. Detected labels: Cat, Felidae, Small to medium-sized cats, Carnivore, Ocicat, European shorthair, Pixie-bob, Kitten, Dragon li, Tabby cat. Hektor was detected! 
+[20200505_201249] Sensor was LOW. 
+[20200505_202724] Sensor was HIGH. Detected labels: Light, Ceiling, Lighting, Light fixture, Room, Lighting accessory, Nightlight. Hektor was not detected... 
+[20200505_202735] Sensor was LOW. 
+[20200505_202737] Sensor was HIGH. Detected labels: Cat, Room, Felidae, Small to medium-sized cats, Interior design, Fur, Tail, Furniture, Comfort. Hektor was detected! 
+[20200505_202751] Sensor was LOW. 
+[20200505_202813] Sensor was HIGH. Detected labels: Room, Sewing machine, Interior design, Table, Textile, Furniture. Hektor was not detected... 
+KeyboardInterrupt
+[20200505_202837] Sensor was LOW. 

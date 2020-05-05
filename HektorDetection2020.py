@@ -4,10 +4,13 @@
 import io
 import os
 import datetime
+from datetime import datetime
 import time
 import random
 import requests    # for LINE
 import RPi.GPIO as GPIO    # for Sensor and LED
+import psutil    # for storage management
+import glob    # for storage management
 #### Import #### END
 
 #### GPIO: pin-assignment, setup #### START
@@ -15,9 +18,9 @@ GPIO.setwarnings(False)    # To avoid used pin before.
 GPIO.setmode(GPIO.BCM)
 SENSOR = 14
 GPIO.setup(SENSOR, GPIO.IN)
-LED = 15
-GPIO.setup(LED, GPIO.OUT)
-GPIO.output(LED, GPIO.LOW)
+#forLED# LED = 15
+#forLED# GPIO.setup(LED, GPIO.OUT)
+#forLED# GPIO.output(LED, GPIO.LOW)
 #### GPIO: pin-assignment, setup #### END
 
 #### Google Cloud: import client libraries, instantiates a client #### START
@@ -38,74 +41,95 @@ def send_line(message, fname):
     print("LINE sent: " + r.text)
 #### LINE #### END
 
+#### Directory #### START
+dir_image = '/home/pi/programs/HektorDetection2020/image/'
+#### Directory #### END
+
 #### Processing #### START
 
 try:
     Counter = 0
+    Status = ""
+    StatusSensor = ""
+    StatusSensorLast = ""
     
     while True:
+        now = datetime.now()
+        Status = "[" + now.strftime('%Y%m%d') + '_' + now.strftime('%H%M%S') + "] "
         
+        #### Storage Management #### START
+        # Remove oldest 10 files and empty directories if free storage is less than 4GB.
+        FreeGB = psutil.disk_usage('/').free / 1024 / 1024 / 1024
+        if FreeGB < 4:
+            Files = sorted(glob.glob(dir_image + "/*/*.jpg"))
+            for F in Files:
+                if Files.index(F) < 10:
+                    os.remove(F)
+                    RemoveNum = Files.index(F) + 1
+            for D in glob.glob(imageDir + "/*"):
+                try:
+                    os.rmdir(D)
+                except OSError as dummy:
+                    pass
+            Status = Status + str(RemoveNum) + " files were removed due to less than 4GB free storage. "
+            print(Status)
+        #### Storage Management #### END
+        
+        #### Main Process #### START
         if GPIO.input(SENSOR) == GPIO.HIGH:
-            print("[if GPIO.input(SENSOR) == GPIO.HIGH:]")
             Counter += 1
-            GPIO.output(LED, GPIO.HIGH)
-            time.sleep(0.4)
-            GPIO.output(LED, GPIO.LOW)
-            time.sleep(0.1)
+            #forLED# GPIO.output(LED, GPIO.HIGH)
+            #forLED# GPIO.output(LED, GPIO.LOW)
+            time.sleep(0.5)
             
-            if Counter > 4:
-                print("[if Counter > 4:]")
-                Counter = 0    # Counter reset
+            # Run if sensor HIGH keeps 5 times.
+            if Counter >= 3:
+                Status = Status + "Sensor was HIGH. "
+                StatusSensor = "HIGH"
+                Counter = 0
                 
-                ## Date/Time/Folder update ## START
-                print("[## Date/Time/Folder update ## START]")
-                from datetime import datetime
-                dir_image = '/home/pi/programs/HektorDetection2020/photo/'
-                now = datetime.now()
-                dir_name = now.strftime('%Y%m%d')
-                dir_path = dir_image + dir_name + '/'
+                #### Date/Time/Folder update #### START
+                dir_path = dir_image + now.strftime('%Y%m%d') + '/'
                 file_name = now.strftime('%Y%m%d') + '_' + now.strftime('%H%M%S') + '.jpg'
                 file_path = dir_path + file_name
                 if os.path.exists(dir_path) == False:
                     os.mkdir(dir_path)
-                ## Date/Time/Folder update ## END
+                #### Date/Time/Folder update #### END
                 
-                ## Image grabbing ## START
-                print("[## Image grabbing ## START]")
+                #### Image grabbing #### START
                 os.system('sudo raspistill -w 640 -h 480 -rot 180 -t 1 -o ' + file_path)
-                ## Image grabbing ## END
+                #### Image grabbing #### END
                 
-                ## Google: annotating, loading into memory ## START
-                print("[## Google: annotating, loading into memory ## START]")
+                #### Google: annotating, loading into memory #### START
                 image_file_to_annotate = os.path.abspath(file_path)
                 with io.open(image_file_to_annotate, 'rb') as image_file:
                     content = image_file.read()
                 image = types.Image(content=content)
-                ## Google: annotating, loading into memory ## END
+                #### Google: annotating, loading into memory #### END
 
-                ## Google: label detection ## START
-                print("[## Google: label detection ## START]")
+                #### Google: label detection #### START
                 response = client.label_detection(image=image)
                 labels = response.label_annotations
-                print('Labels [START]')
+                Status = Status + "Detected labels: "
                 for label in labels:
-                    print(label.description)
-                print('Labels [END]')
-                ## Google: label detection ## END
+                    Status = Status + label.description + ", "
+                Status = Status[0:len(Status)-2] + ". "
+                print (Status)
+                #### Google: label detection #### END
 
-                ## Hektor Detection ## START
-                print("[## Hektor Detection ## START]")
+                #### Hektor Detection #### START
                 HektorDetection = 0
                 for label in labels:
                     if 'cat' in label.description:
                         HektorDetection += 1
-                ## Hektor Detection ## END
+                #### Hektor Detection #### END
                 
-                ## Actions ## START
-                print("[## Actions ## START]")
+                #### Actions #### START
                 if HektorDetection > 0:
                     
-                    print ('Hektor was detected!')
+                    Status = Status + "Hektor was detected! "
+                    print (Status)
+                    
                     file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
                     os.rename(file_path, file_path_revised)
                     
@@ -121,13 +145,35 @@ try:
                     
                 else:
                     
-                    print ('Hektor was not detected...')
+                    Status = Status + "Hektor was not detected... "
+                    print (Status)
+                    
                     os.remove(file_path)
                     
-                ## Action ## END
+                #### Action #### END
+                    
+        # Reset the counter if sensor LOW appears.
+        else:
+            Counter = 0
+            Status = Status + "Sensor was LOW. "
+            StatusSensor = "Low"
+        
+        # Record results of "Main Process".
+        if StatusSensor != StatusSensorLast:
+            print (Status)
+            fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
+            fileobj.write(Status + "\n")
+            fileobj.close()
+        StatusSensorLast = StatusSensor        
+
+        #### Main Process #### START
 
 except KeyboardInterrupt:
-    print("[except KeyboardInterrupt:]")
+    Status = "KeyboardInterrupt"
+    print (Status)
+    fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
+    fileobj.write("KeyboardInterrupt" + "\n")
+    fileobj.close()
     
 finally:
     GPIO.cleanup()
