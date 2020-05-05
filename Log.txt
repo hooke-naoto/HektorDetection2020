@@ -1,68 +1,18 @@
-20200506_002455 / Sensor LOW
-20200506_002457 / Sensor HIGH / Detected as: Room Kitchen Furniture Interior design Architecture House Cabinetry Table Major appliance Kitchen appliance / Hektor was not detected...
-20200506_002501
-20200506_002501
-20200506_002501 / Sensor LOW
-20200506_002504 / Sensor HIGH / Detected as: Room Kitchen Furniture Interior design Architecture Major appliance House Cabinetry Table Kitchen stove / Hektor was not detected...
-20200506_002506
-20200506_002506
-20200506_002507
-20200506_002507
-20200506_002507 / Sensor HIGH / Detected as: Room Purple Kitchen Interior design Furniture Countertop Material property Architecture Major appliance House / Hektor was not detected...
-20200506_002510
-20200506_002510
-20200506_002510
-20200506_002511
-20200506_002511 / Sensor HIGH / Detected as: Room Furniture Kitchen Interior design Material property House Architecture Cabinetry Table Countertop / Hektor was not detected...
-20200506_002513
-20200506_002513
-20200506_002514 / Sensor LOW
-20200506_002519 / Sensor HIGH / Detected as: Room Kitchen Material property Countertop Architecture Interior design Furniture Small appliance Major appliance House / Hektor was not detected...
-20200506_002522
-20200506_002522
-20200506_002522
-20200506_002522
-20200506_002523 / Sensor HIGH / Detected as: Kitchen Room Countertop Material property Furniture Small appliance Major appliance Kitchen appliance Interior design House / Hektor was not detected...
-20200506_002525
-20200506_002525
-20200506_002526
-20200506_002526 / Sensor LOW
-20200506_002531 / Sensor HIGH / Detected as: Room Kitchen Small appliance Furniture Kitchen appliance Interior design Major appliance Home appliance House Machine / Hektor was not detected...
-20200506_002534
-20200506_002534
-20200506_002534
-20200506_002534
-20200506_002535 / Sensor HIGH / Detected as: Room Kitchen Material property Small appliance Furniture Interior design Kitchen appliance House Machine Home appliance / Hektor was not detected...
-20200506_002537
-20200506_002537
-20200506_002538
-20200506_002538
-20200506_002538 / Sensor HIGH / Detected as: Product Room Kitchen Small appliance Furniture Interior design Kitchen appliance Major appliance Machine Home appliance / Hektor was not detected...
-20200506_002540
-20200506_002541
-20200506_002541
-20200506_002541
-20200506_002542 / Sensor HIGH / Detected as: Room Kitchen Material property Small appliance Furniture Interior design Kitchen appliance Major appliance House Machine / Hektor was not detected...
-20200506_002544
-20200506_002544
-20200506_002545
-20200506_002545
-20200506_002545 / Sensor HIGH / Detected as: Room Kitchen Small appliance Material property Furniture Interior design Kitchen appliance Machine / Hektor was not detected...
-20200506_002548
-20200506_002548
-20200506_002548 / Sensor LOW
-20200506_002550 / Sensor HIGH / Detected as: Product Purple Room Kitchen Material property Small appliance Furniture Interior design Machine Kitchen appliance / Hektor was not detected...
-20200506_002553
-20200506_002553
-20200506_002553
-20200506_002554
-20200506_002554 / Sensor LOW
-20200506_002559 / Sensor HIGH / Detected as: Product Room Kitchen Material property Small appliance Furniture Interior design Kitchen appliance Major appliance House / Hektor was not detected...
-20200506_002601
-20200506_002601
-20200506_002601
-20200506_002602
-20200506_002602 / Sensor HIGH / Detected as: Room Kitchen Small appliance Material property Furniture Interior design Kitchen appliance Major appliance Home appliance House / Hektor was not detected...
-20200506_002604
-20200506_002605
-20200506_002605 / Sensor LOW
+20200506_005035 / Sensor HIGH / Detected as: Room Kitchen Interior design Furniture Architecture House Table Kitchen stove Major appliance Kitchen appliance / Hektor was not detected...
+20200506_005038 / Sensor MEDIUM
+20200506_005047 / Sensor HIGH / Detected as: Room Purple Interior design Kitchen Furniture Architecture House Material property Table Home / Hektor was not detected...
+20200506_005050 / Sensor MEDIUM
+20200506_005059 / Sensor HIGH / Detected as: Room Purple Violet Interior design Furniture Kitchen Architecture Material property House Table / Hektor was not detected...
+20200506_005102 / Sensor MEDIUM
+20200506_005104 / Sensor HIGH / Detected as: Room Pink Kitchen Purple Furniture Material property Interior design Architecture Countertop Major appliance / Hektor was not detected...
+20200506_005106 / Sensor MEDIUM
+20200506_005118 / Sensor HIGH / Detected as: Room Purple Kitchen Violet Interior design Furniture Material property House Major appliance Interior design / Hektor was not detected...
+20200506_005121 / Sensor MEDIUM
+20200506_005123 / Sensor HIGH / Detected as: Room Purple Property Violet Interior design Kitchen Furniture Architecture House Material property / Hektor was not detected...
+20200506_005125 / Sensor MEDIUM
+20200506_005129 / Sensor HIGH / Detected as: Purple Violet Room Property Interior design Furniture Kitchen Pink Architecture House / Hektor was not detected...
+20200506_005132 / Sensor MEDIUM
+20200506_005151 / Sensor HIGH / Detected as: Room Property Furniture Kitchen Interior design Kitchen stove House Architecture Table Cabinetry / Hektor was not detected...
+20200506_005154 / Sensor MEDIUM
+20200506_005759 / Sensor HIGH / Detected as: Room Interior design Furniture Kitchen Architecture House Table Interior design Kitchen stove / Hektor was not detected...
+20200506_005809 / Sensor MEDIUM

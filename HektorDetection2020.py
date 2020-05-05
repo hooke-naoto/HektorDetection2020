@@ -51,8 +51,8 @@ dir_sound = "/home/pi/programs/HektorDetection2020/sound/"
 try:
     Counter = 0
     Status = ""
-    StatusSensor = ""
-    StatusSensorLast = ""
+    StatusSensor = "low"
+    StatusSensorLast = "low"
     
     while True:
         ID = datetime.now().strftime('%Y%m%d') + '_' + datetime.now().strftime('%H%M%S')
@@ -81,9 +81,9 @@ try:
             Counter += 1
             #forLED# GPIO.output(LED, GPIO.HIGH)
             #forLED# GPIO.output(LED, GPIO.LOW)
-            time.sleep(0.3)
+            time.sleep(0.5)
             
-            # Run if sensor HIGH keeps 5 times.
+            #### Sensor HIGH 5 times or not #### START
             if Counter >= 5:
                 Status = Status + " / Sensor HIGH"
                 StatusSensor = "high"
@@ -149,18 +149,25 @@ try:
                     
                 #### Action #### END
                     
-        # Reset the counter if sensor LOW appears.
+            else:
+                Status = Status + " / Sensor MEDIUM"
+                StatusSensor = "medium"
+            #### Sensor HIGH 5 times or not #### END
+
         else:
+            # Reset the counter if sensor LOW appears.
             Counter = 0
             Status = Status + " / Sensor LOW"
             StatusSensor = "low"
         
-        # Record results of "Main Process".
+        #### Log.txt #### START
         DoRecord = 0
         if StatusSensor == "high":
             DoRecord = 1
-        else:    # StatusSensor == "low"
-            if StatusSensor != StatusSensorLast:
+        if StatusSensorLast == "high":
+            if StatusSensor == "medium":
+                DoRecord = 1
+            if StatusSensor == "low":
                 DoRecord = 1
         if DoRecord == 1:
             print (Status)
@@ -168,6 +175,7 @@ try:
             fileobj.write(Status + "\n")
             fileobj.close()
         StatusSensorLast = StatusSensor        
+        #### Log.txt #### END
 
         #### Main Process #### START
 
