@@ -1,4 +1,4 @@
-# coding: utf-8
+# -*- coding: utf-8 -*-
 
 #### Import #### START
 import io
@@ -55,8 +55,8 @@ try:
     StatusSensorLast = ""
     
     while True:
-        now = datetime.now()
-        Status = "[" + now.strftime('%Y%m%d') + '_' + now.strftime('%H%M%S') + "] "
+        ID = datetime.now().strftime('%Y%m%d') + '_' + datetime.now().strftime('%H%M%S')
+        Status = ID
         
         #### Storage Management #### START
         # Remove oldest 10 files and empty directories if free storage is less than 4GB.
@@ -72,7 +72,7 @@ try:
                     os.rmdir(D)
                 except OSError as dummy:
                     pass
-            Status = Status + str(RemoveNum) + " files were removed due to less than 4GB free storage. "
+            Status = Status + " / " + str(RemoveNum) + " files removed"
             print(Status)
         #### Storage Management #### END
         
@@ -85,13 +85,13 @@ try:
             
             # Run if sensor HIGH keeps 5 times.
             if Counter >= 3:
-                Status = Status + "Sensor was HIGH. "
+                Status = Status + " / Sensor HIGH"
                 StatusSensor = "HIGH"
                 Counter = 0
                 
                 #### Date/Time/Folder update #### START
-                dir_path = dir_image + now.strftime("%Y%m%d") + "/"
-                file_name = now.strftime("%Y%m%d") + "_" + now.strftime("%H%M%S") + ".jpg"
+                dir_path = dir_image + datetime.now().strftime("%Y%m%d") + "/"
+                file_name = ID + ".jpg"
                 file_path = dir_path + file_name
                 if os.path.exists(dir_path) == False:
                     os.mkdir(dir_path)
@@ -111,10 +111,9 @@ try:
                 #### Google: label detection #### START
                 response = client.label_detection(image=image)
                 labels = response.label_annotations
-                Status = Status + "Detected labels: "
+                Status = Status + " / Detected as:"
                 for label in labels:
-                    Status = Status + label.description + ", "
-                Status = Status[0:len(Status)-2] + ". "
+                    Status = Status + " " + label.description
                 print (Status)
                 #### Google: label detection #### END
 
@@ -128,7 +127,7 @@ try:
                 #### Actions #### START
                 if HektorDetection > 0:
                     
-                    Status = Status + "Hektor was detected! "
+                    Status = Status + " / Hektor was detected!"
                     print (Status)
                     
                     file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
@@ -143,7 +142,7 @@ try:
                         
                 else:
                     
-                    Status = Status + "Hektor was not detected... "
+                    Status = Status + " / Hektor was not detected..."
                     print (Status)
                     
                     os.remove(file_path)
@@ -153,7 +152,7 @@ try:
         # Reset the counter if sensor LOW appears.
         else:
             Counter = 0
-            Status = Status + "Sensor was LOW. "
+            Status = Status + " / Sensor LOW"
             StatusSensor = "Low"
         
         # Record results of "Main Process".
@@ -170,7 +169,7 @@ except KeyboardInterrupt:
     Status = "KeyboardInterrupt"
     print (Status)
     fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
-    fileobj.write("KeyboardInterrupt" + "\n")
+    fileobj.write(Status + "\n")
     fileobj.close()
     
 finally:
