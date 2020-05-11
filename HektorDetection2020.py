@@ -106,13 +106,13 @@ def detect_objects(interpreter, image, threshold):
     count = int(get_output_tensor(interpreter, 3))
     results = []
     for i in range(count):
-    if scores[i] >= threshold:
-        result = {
-                    'bounding_box': boxes[i],
-                    'class_id': classes[i],
-                    'score': scores[i]
-                    }
-        results.append(result)
+        if scores[i] >= threshold:
+            result = {
+                        'bounding_box': boxes[i],
+                        'class_id': classes[i],
+                        'score': scores[i]
+                        }
+            results.append(result)
     return results
 
 """Draws the bounding box and label for each object in the results."""
