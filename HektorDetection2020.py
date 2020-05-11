@@ -7,24 +7,25 @@
 ######## Desctiption ######## END
 
 ######## Parameters ########
-dir_image = "/home/pi/programs/HektorDetection2020/image/"
-dir_sound = "/home/pi/programs/HektorDetection2020/sound/"
-save_result_image = True
-show_result_image = True
-min_score = 0.2 # Min scores for result image.
-max_boxes = 10 # Max number of boxes for result image.
-nn_model_path = "nn_model/ssd_mobilenet_v2_1"
-nn_model_url = "https://tfhub.dev/google/openimages_v4/ssd/mobilenet_v2/1"
-image_path = "Hektor.jpg"
+dir_image = "image/"
+dir_sound = "sound/"
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
 ######## Parameters ######## END
 
 ######## Import ########
+# __future__ to avoid version interferences between Python2 and Python3.
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+
 # General
 import io
 import os
+import argparse
+import re
 import time
 import datetime
-# from datetime import datetime
 import random
 import requests    # for LINE
 import RPi.GPIO as GPIO    # for Sensor and LED
@@ -33,6 +34,7 @@ import glob    # for storage management
 import tempfile
 import numpy as np
 import matplotlib.pyplot as plt
+import picamera
 
 # PILLOW (image processing)
 from PIL import Image
@@ -40,30 +42,11 @@ from PIL import ImageOps
 from PIL import ImageDraw
 from PIL import ImageFont
 
-# TensorFlow
-import tensorflow as tf
-import tensorflow_hub as tf_hub
-print("\n[Environment for TensorFlow]")
-if tf.test.gpu_device_name() != "":
-    print("GPU: %s" % tf.test.gpu_device_name())
-else:
-    print("GPU: none")
-print("TensorFlow version:", tf.__version__)
+# ?
+from annotation import Annotator
 
-# NN Model
-print("\n[NN model loading]")
-# [ssd+mobilenet V2] was choosen because smaller and faster than [FasterRCNN+InceptionResNet V2].
-try:
-    nn_model = tf_hub.load(nn_model_path).signatures['default']
-    print("NN model was loaded from local PC:", nn_model_path)
-except OSError as error:
-    print("NN model couldn't be loaded from local PC:", error)
-    print("NN model will be loaded from TensorFlow Hub...")
-    try:
-        nn_model = tf_hub.load(nn_model_url).signatures['default']
-        print("NN model was loaded from TensorFlow Hub:", nn_model_url)
-    except OSError as error:
-        print("Error - NN model loading:", error)
+# TensorFlow
+from tflite_runtime.interpreter import Interpreter
 ######## Import ######## END
 
 ######## GPIO: pin-assignment, setup ########
@@ -77,7 +60,7 @@ GPIO.setup(SENSOR, GPIO.IN)
 ######## GPIO: pin-assignment, setup ######## END
 
 ######## Helper Functions ########
-#### LINE ####
+"""LINE"""
 def send_line(message, fname):
     url = "https://notify-api.line.me/api/notify"
     token = "XftPxzeo7TL4JzxaKsu1KurQd0T1g5tOM392ePLKVal"
@@ -87,75 +70,83 @@ def send_line(message, fname):
     files = {"imageFile": open(fname, "rb")}
     r = requests.post(url, headers = headers, params=payload, files=files)
     print("LINE sent: " + r.text)
-#### LINE #### END
 
-#### Load & Resize images ####
-def load_and_resize_image(path, new_width=256, new_height=256, display=False):
-    _, filename = tempfile.mkstemp(suffix=".jpg")
-    pil_image = Image.open(path)
-    pil_image = ImageOps.fit(pil_image, (new_width, new_height), Image.ANTIALIAS)
-    pil_image_rgb = pil_image.convert("RGB")
-    pil_image_rgb.save(filename, format="JPEG", quality=90)
-    print("Image loaded to %s." % filename)
-    return filename
-#### Load & Resize images #### END
+"""Loads the labels file. Supports files with or without index numbers."""
+def load_labels(path):
+    with open(path, 'r', encoding='utf-8') as f:
+        lines = f.readlines()
+        labels = {}
+        for row_number, content in enumerate(lines):
+            pair = re.split(r'[:\s]+', content.strip(), maxsplit=1)
+            if len(pair) == 2 and pair[0].strip().isdigit():
+                labels[int(pair[0])] = pair[1].strip()
+            else:
+                labels[row_number] = pair[0].strip()
+    return labels
 
-#### Draw boxes ####
-# Overlay labeled boxes on an image with formatted scores and label names.
-def draw_boxes(image, boxes, class_names, scores, min_score, max_boxes):
-    font = ImageFont.load_default()
-    for i in range(min(len(boxes), max_boxes)):
-        if scores[i] >= min_score:
-            ymin, xmin, ymax, xmax = tuple(boxes[i])
-            display_str = "{}: {}%".format(class_names[i].decode("ascii"), int(100 * scores[i]))
-            image_pil = Image.fromarray(np.uint8(image)).convert("RGB")
-            draw_bounding_box_on_image(image_pil, ymin, xmin, ymax, xmax, font, display_str_list=[display_str])
-        np.copyto(image, np.array(image_pil))
-    return image
-#### Draw boxes #### END
+"""Sets the input tensor."""
+def set_input_tensor(interpreter, image):
+    tensor_index = interpreter.get_input_details()[0]['index']
+    input_tensor = interpreter.tensor(tensor_index)()[0]
+    input_tensor[:, :] = image
 
-#### Draw bounding box on image ####
-# Adds a bounding box to an image.
-def draw_bounding_box_on_image(image, ymin, xmin, ymax, xmax, font, thickness=2, display_str_list=()):
-    draw = ImageDraw.Draw(image)
-    im_width, im_height = image.size
-    (left, right, top, bottom) = (xmin * im_width, xmax * im_width, ymin * im_height, ymax * im_height)
-    draw.line([(left, top), (left, bottom), (right, bottom), (right, top), (left, top)], width=thickness, fill="lightgray")
-    # If the total height of the display strings added to the top of the bounding box
-    # exceeds the top of the image, stack the strings below the bounding box instead of above.
-    display_str_heights = [font.getsize(ds)[1] for ds in display_str_list]
-    # Each display_str has a top and bottom margin of 0.05x.
-    total_display_str_height = (1 + 2 * 0.05) * sum(display_str_heights)
-    if top > total_display_str_height:
-        text_bottom = top
-    else:
-        text_bottom = top + total_display_str_height
-    # Reverse list and print from bottom to top.
-    for display_str in display_str_list[::-1]:
-        text_width, text_height = font.getsize(display_str)
-        margin = np.ceil(0.05 * text_height)
-        draw.rectangle(
-                       [(left, text_bottom - text_height - margin*2), (left + text_width, text_bottom)],
-                       fill="lightgray"
-                       )
-        draw.text(
-                  (left + margin, text_bottom - text_height - margin),
-                  display_str,
-                  fill="black",
-                  font=font
-                  )
-        text_bottom -= text_height - margin*2
-#### Draw bounding box on image #### END
+"""Returns the output tensor at the given index."""
+def get_output_tensor(interpreter, index):
+    output_details = interpreter.get_output_details()[index]
+    tensor = np.squeeze(interpreter.get_tensor(output_details['index']))
+    return tensor
+
+"""Returns a list of detection results, each a dictionary of object info."""
+def detect_objects(interpreter, image, threshold):
+    set_input_tensor(interpreter, image)
+    interpreter.invoke()
+    boxes = get_output_tensor(interpreter, 0)
+    classes = get_output_tensor(interpreter, 1)
+    scores = get_output_tensor(interpreter, 2)
+    count = int(get_output_tensor(interpreter, 3))
+    results = []
+    for i in range(count):
+    if scores[i] >= threshold:
+        result = {
+                    'bounding_box': boxes[i],
+                    'class_id': classes[i],
+                    'score': scores[i]
+                    }
+        results.append(result)
+    return results
+
+"""Draws the bounding box and label for each object in the results."""
+def annotate_objects(annotator, results, labels):
+    for obj in results:
+        # Convert the bounding box figures from relative coordinates
+        # to absolute coordinates based on the original resolution
+        ymin, xmin, ymax, xmax = obj['bounding_box']
+        xmin = int(xmin * CAMERA_WIDTH)
+        xmax = int(xmax * CAMERA_WIDTH)
+        ymin = int(ymin * CAMERA_HEIGHT)
+        ymax = int(ymax * CAMERA_HEIGHT)
+        # Overlay the box, label, and score on the camera preview
+        annotator.bounding_box([xmin, ymin, xmax, ymax])
+        annotator.text([xmin, ymin], '%s\n%.2f' % (labels[obj['class_id']], obj['score']))
 ######## Helper Functions ######## END
 
 
 ######## Processing ########
-
 try:
     Counter = 0
     Status = ""
     StatusSensor = "low"
     StatusSensorLast = "low"
+    parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
+    parser.add_argument('--model', help='File path of .tflite file.', required=True)
+    parser.add_argument('--labels', help='File path of labels file.', required=True)
+    parser.add_argument('--threshold',　help='Threshold for detection.', required=False,
+                        type=float, default=0.4)
+    args = parser.parse_args()
+    labels = load_labels(args.labels)
+    interpreter = Interpreter(args.model)
+    interpreter.allocate_tensors()
+    _, input_height, input_width, _ = interpreter.get_input_details()[0]['shape']
 
     while True:
         now = datetime.datetime.now()
@@ -208,66 +199,44 @@ try:
                 ######## Detection ########
                 print("\n[Detection]")
                 print("ID:", ID)
-                file_path_detection = load_and_resize_image(file_path, 400, 300)
-                image = tf.io.read_file(file_path_detection)
-                image = tf.image.decode_jpeg(image, channels=3)
-                image_converted  = tf.image.convert_image_dtype(image, tf.float32)[tf.newaxis, ...]
-                results = nn_model(image_converted)
-                results = {key:value.numpy() for key,value in results.items()}
-                print("%d objects were detected." % len(results["detection_scores"]))
+                image = Image.open(file_path).convert('RGB').resize((input_width, input_height), Image.ANTIALIAS)
+                results = detect_objects(interpreter, image, args.threshold)
+                print("results:", results)
+                annotator.clear()
+                annotate_objects(annotator, results, labels)
+                annotator.text([5, 0], '%.1fms' % (elapsed_ms))
+                annotator.update()
                 ######## Detection ######## END
 
-                ######## Show & Save result image ########
-                image_with_boxes = draw_boxes(
-                                              image.numpy(),
-                                              results["detection_boxes"],
-                                              results["detection_class_entities"],
-                                              results["detection_scores"],
-                                              min_score,
-                                              max_boxes
-                                              )
-                fig = plt.figure(figsize=(8, 6))
-                plt.grid(False)
-                plt.imshow(image_with_boxes)
-                if save_result_image == True:
-                    folder_path = "DetectedImage/"
-                    if os.path.exists(folder_path) == False:
-                        os.mkdir(folder_path)
-                    plt.savefig(folder_path + ID + ".png")
-                if show_result_image == True:
-                    plt.show()
-                ######## Show & Save result image ######## END
-                
                 #### Hektor Detection ####
-                HektorDetection = 0
-                for label in labels:
-                    if 'cat' in label.description:
-                        HektorDetection += 1
+                # HektorDetection = 0
+                # for label in labels:
+                #     if 'cat' in label.description:
+                #         HektorDetection += 1
                 #### Hektor Detection #### END
 
                 #### Actions ####
-                if HektorDetection > 0:
-
-                    Status = Status + " / Hektor was detected!"
-                    print (Status)
-
-                    file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
-                    os.rename(file_path, file_path_revised)
-
-                    # Send LINE message.
-                    send_line("Hektor was detected!", file_path_revised)
-
-                    # Play a sound file at random in the "sound" folder.
-                    Files = sorted(glob.glob(dir_sound + "/*.wav"))
-                    os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
-
-                else:
-
-                    Status = Status + " / Hektor was not detected..."
-                    print (Status)
-
-                    os.remove(file_path)
-
+                # if HektorDetection > 0:
+                #
+                #     Status = Status + " / Hektor was detected!"
+                #     print (Status)
+                #
+                #     file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
+                #     os.rename(file_path, file_path_revised)
+                #
+                #     # Send LINE message.
+                #     send_line("Hektor was detected!", file_path_revised)
+                #
+                #     # Play a sound file at random in the "sound" folder.
+                #     Files = sorted(glob.glob(dir_sound + "/*.wav"))
+                #     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+                #
+                # else:
+                #
+                #     Status = Status + " / Hektor was not detected..."
+                #     print (Status)
+                #
+                #     os.remove(file_path)
                 #### Action #### END
 
             else:
@@ -292,22 +261,19 @@ try:
                 DoRecord = 1
         if DoRecord == 1:
             print (Status)
-            fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
+            fileobj = open("Log.txt", "a")
             fileobj.write(Status + "\n")
             fileobj.close()
         StatusSensorLast = StatusSensor
         #### Log.txt #### END
 
-        ######## Main Process ########
-
 except KeyboardInterrupt:
     Status = "KeyboardInterrupt"
     print (Status)
-    fileobj = open("/home/pi/programs/HektorDetection2020/Log.txt", "a")
+    fileobj = open("Log.txt", "a")
     fileobj.write(Status + "\n")
     fileobj.close()
 
 finally:
     GPIO.cleanup()
-
 ######## Processing ######## END
