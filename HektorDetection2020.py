@@ -1,27 +1,27 @@
 # -*- coding: utf-8 -*-
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
 
 ######## Desctiption ########
 # Goal: The detection camera for my cat in our house with RasPi as a stand-alone system (no web loading).
 # Last: Detection with Google Cloud Vision API.
-# This: Try as a stand-alone with TensorFlow.
+# This: Try as a stand-alone with TensorFlow Lite.
 ######## Desctiption ######## END
 
 ######## Parameters ########
 dir_image = "image/"
 dir_sound = "sound/"
-CAMERA_WIDTH = 640
-CAMERA_HEIGHT = 480
+camera_width = 640
+camera_height = 480
 ######## Parameters ######## END
 
 ######## Import ########
-# __future__ to avoid version interferences between Python2 and Python3.
-from __future__ import absolute_import
-from __future__ import division
-from __future__ import print_function
-
 # General
 import io
 import os
+import sys
+sys.dont_write_bytecode = True # Avoid cache folder and files.
 import argparse
 import re
 import time
@@ -29,12 +29,15 @@ import datetime
 import random
 import requests    # for LINE
 import RPi.GPIO as GPIO    # for Sensor and LED
+import shutil    # for storage management
 import psutil    # for storage management
 import glob    # for storage management
 import tempfile
 import numpy as np
 import matplotlib.pyplot as plt
 import picamera
+camera = picamera.PiCamera(resolution=(camera_width, camera_height))
+camera.rotation = 180
 
 # PILLOW (image processing)
 from PIL import Image
@@ -42,8 +45,9 @@ from PIL import ImageOps
 from PIL import ImageDraw
 from PIL import ImageFont
 
-# ?
+# Import "annotation.py" in same folder
 from annotation import Annotator
+annotator = Annotator(camera)
 
 # TensorFlow
 from tflite_runtime.interpreter import Interpreter
@@ -54,9 +58,9 @@ GPIO.setwarnings(False)    # To avoid used pin before.
 GPIO.setmode(GPIO.BCM)
 SENSOR = 14
 GPIO.setup(SENSOR, GPIO.IN)
-#forLED# LED = 15
-#forLED# GPIO.setup(LED, GPIO.OUT)
-#forLED# GPIO.output(LED, GPIO.LOW)
+LED = 15 #### for LED ####
+GPIO.setup(LED, GPIO.OUT) #### for LED ####
+GPIO.output(LED, GPIO.LOW) #### for LED ####
 ######## GPIO: pin-assignment, setup ######## END
 
 ######## Helper Functions ########
@@ -121,10 +125,10 @@ def annotate_objects(annotator, results, labels):
         # Convert the bounding box figures from relative coordinates
         # to absolute coordinates based on the original resolution
         ymin, xmin, ymax, xmax = obj['bounding_box']
-        xmin = int(xmin * CAMERA_WIDTH)
-        xmax = int(xmax * CAMERA_WIDTH)
-        ymin = int(ymin * CAMERA_HEIGHT)
-        ymax = int(ymax * CAMERA_HEIGHT)
+        xmin = int(xmin * camera_width)
+        xmax = int(xmax * camera_width)
+        ymin = int(ymin * camera_height)
+        ymax = int(ymax * camera_height)
         # Overlay the box, label, and score on the camera preview
         annotator.bounding_box([xmin, ymin, xmax, ymax])
         annotator.text([xmin, ymin], '%s\n%.2f' % (labels[obj['class_id']], obj['score']))
@@ -134,58 +138,74 @@ def annotate_objects(annotator, results, labels):
 ######## Processing ########
 try:
     Counter = 0
-    Status = ""
+    ID_data = ""
     StatusSensor = "low"
     StatusSensorLast = "low"
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--model', help='File path of .tflite file.', required=True)
     parser.add_argument('--labels', help='File path of labels file.', required=True)
-    parser.add_argument('--threshold', help='Threshold for detection.', required=False,
-                        type=float, default=0.4)
+    parser.add_argument('--threshold', help='Threshold for detection.', required=False, type=float, default=0.4)
     args = parser.parse_args()
     labels = load_labels(args.labels)
     interpreter = Interpreter(args.model)
     interpreter.allocate_tensors()
     _, input_height, input_width, _ = interpreter.get_input_details()[0]['shape']
+    
+    # [System started.] will be recorded to log file and notified to LINE.
+    d = datetime.datetime.now()
+    fileobj = open("log.txt", "a")
+    fileobj.write(d.strftime("%Y%m%d_%H%M%S") + ": System started." + "\n")
+    fileobj.close()
+    camera.capture("tmp.jpg")
+    send_line(d.strftime("%Y%m%d_%H%M%S") + ": System started.", "tmp.jpg")
+    for i in range(10):
+        GPIO.output(LED, GPIO.HIGH) #### for LED ####
+        time.sleep(0.05)
+        GPIO.output(LED, GPIO.LOW) #### for LED ####
+        time.sleep(0.05)
 
     while True:
-        now = datetime.datetime.now()
-        ID = now.strftime("%Y%m%d_%H%M%S")
-        Status = ID
-
+        d = datetime.datetime.now()
+        ID = d.strftime("%Y%m%d_%H%M%S")
+        ID_data = ID
+        
         ######## Storage Management ########
         # Remove oldest 10 files and empty directories if free storage is less than 4GB.
         FreeGB = psutil.disk_usage('/').free / 1024 / 1024 / 1024
-        if FreeGB < 4:
+        if FreeGB < 1:
             Files = sorted(glob.glob(dir_image + "/*/*.jpg"))
             for F in Files:
                 if Files.index(F) < 10:
                     os.remove(F)
                     RemoveNum = Files.index(F) + 1
-            for D in glob.glob(imageDir + "/*"):
+            for D in glob.glob(dir_image + "/*"):
                 try:
                     os.rmdir(D)
                 except OSError as dummy:
                     pass
-            Status = Status + " / " + str(RemoveNum) + " files removed"
-            print(Status)
+            ID_data = ID_data + " / " + str(RemoveNum) + " files removed"
+            print(ID_data)
         ######## Storage Management ######## END
 
         ######## Main Process ########
         if GPIO.input(SENSOR) == GPIO.HIGH:
             Counter += 1
-            #forLED# GPIO.output(LED, GPIO.HIGH)
-            #forLED# GPIO.output(LED, GPIO.LOW)
-            time.sleep(0.5)
+            GPIO.output(LED, GPIO.HIGH) #### for LED ####
+            time.sleep(0.1)
+            GPIO.output(LED, GPIO.LOW) #### for LED ####
+            time.sleep(0.4)
 
             #### Sensor HIGH kept or not ####
             if Counter >= 5:
-                Status = Status + " / Sensor HIGH"
+                
+                GPIO.output(LED, GPIO.HIGH) #### for LED ####
+                
+                ID_data = ID_data + " / Sensor HIGH"
                 StatusSensor = "high"
                 Counter = 0
 
                 #### Date/Time/Folder update ####
-                dir_path = dir_image + datetime.now().strftime("%Y%m%d") + "/"
+                dir_path = dir_image + datetime.datetime.now().strftime("%Y%m%d") + "/"
                 file_name = ID + ".jpg"
                 file_path = dir_path + file_name
                 if os.path.exists(dir_path) == False:
@@ -193,64 +213,63 @@ try:
                 #### Date/Time/Folder update #### END
 
                 #### Image grabbing ####
-                os.system("sudo raspistill -w 640 -h 480 -rot 180 -t 1 -o " + file_path)
+                camera.capture("tmp.jpg")
+                shutil.copy("tmp.jpg", file_path)
                 #### Image grabbing #### END
 
                 ######## Detection ########
                 print("\n[Detection]")
                 print("ID:", ID)
                 image = Image.open(file_path).convert('RGB').resize((input_width, input_height), Image.ANTIALIAS)
+                t_start = time.monotonic()
                 results = detect_objects(interpreter, image, args.threshold)
-                print("results:", results)
+                t_process = (time.monotonic() - t_start) * 1000
                 annotator.clear()
                 annotate_objects(annotator, results, labels)
-                annotator.text([5, 0], '%.1fms' % (elapsed_ms))
+                annotator.text([5, 0], '%.1fms' % (t_process))
                 annotator.update()
+                ID_data = ID_data + " / " + str(int(t_process)) + " ms"
+                HektorDetection = 0
+                for obj in results:
+                    if "cat" in labels[obj["class_id"]]:
+                        HektorDetection += 1
+                    if "Cat" in labels[obj["class_id"]]:
+                        HektorDetection += 1
                 ######## Detection ######## END
 
-                #### Hektor Detection ####
-                # HektorDetection = 0
-                # for label in labels:
-                #     if 'cat' in label.description:
-                #         HektorDetection += 1
-                #### Hektor Detection #### END
-
                 #### Actions ####
-                # if HektorDetection > 0:
-                #
-                #     Status = Status + " / Hektor was detected!"
-                #     print (Status)
-                #
-                #     file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
-                #     os.rename(file_path, file_path_revised)
-                #
-                #     # Send LINE message.
-                #     send_line("Hektor was detected!", file_path_revised)
-                #
-                #     # Play a sound file at random in the "sound" folder.
-                #     Files = sorted(glob.glob(dir_sound + "/*.wav"))
-                #     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
-                #
-                # else:
-                #
-                #     Status = Status + " / Hektor was not detected..."
-                #     print (Status)
-                #
-                #     os.remove(file_path)
+                if HektorDetection > 0:
+                    ID_data = ID_data + " / Hektor was detected!"
+                    file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
+                    os.rename(file_path, file_path_revised)
+                    send_line("Hektor was detected!", file_path_revised)
+                    Files = sorted(glob.glob(dir_sound + "/*.wav"))
+                    os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+                else:
+                    ID_data = ID_data + " / Hektor was not detected..."
+                    os.remove(file_path)
                 #### Action #### END
-
+                    
+                #### Detected info ####
+                for obj in results:
+                    ID_data = ID_data + " / " + str(int(obj["class_id"])) + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
+                #### Detected info #### END
+                      
+                time.sleep(0.2)
+                GPIO.output(LED, GPIO.LOW) #### for LED ####
+                
             else:
-                Status = Status + " / Sensor MEDIUM"
+                ID_data = ID_data + " / Sensor MEDIUM"
                 StatusSensor = "medium"
             #### Sensor HIGH kept or not #### END
-
+                      
         else:
             # Reset the counter if sensor LOW appears.
             Counter = 0
-            Status = Status + " / Sensor LOW"
+            ID_data = ID_data + " / Sensor LOW"
             StatusSensor = "low"
 
-        #### Log.txt ####
+        #### log.txt ####
         DoRecord = 0
         if StatusSensor == "high":
             DoRecord = 1
@@ -260,18 +279,18 @@ try:
             if StatusSensor == "low":
                 DoRecord = 1
         if DoRecord == 1:
-            print (Status)
-            fileobj = open("Log.txt", "a")
-            fileobj.write(Status + "\n")
+            print (ID_data)
+            fileobj = open("log.txt", "a")
+            fileobj.write(ID_data + "\n")
             fileobj.close()
         StatusSensorLast = StatusSensor
-        #### Log.txt #### END
+        #### log.txt #### END
 
 except KeyboardInterrupt:
-    Status = "KeyboardInterrupt"
-    print (Status)
-    fileobj = open("Log.txt", "a")
-    fileobj.write(Status + "\n")
+    ID_data = "KeyboardInterrupt"
+    print (ID_data)
+    fileobj = open("log.txt", "a")
+    fileobj.write(ID_data + "\n")
     fileobj.close()
 
 finally:

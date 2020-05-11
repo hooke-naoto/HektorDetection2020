@@ -1,0 +1,538 @@
+20200506_010839 / Sensor HIGH / Detected as: Room Kitchen Sink Interior design Curtain Material property Furniture House Home Interior design / Hektor was not detected...
+20200506_010843 / Sensor MEDIUM
+20200506_010851 / Sensor HIGH / Detected as: Room Pink Curtain Sink Interior design Kitchen House Material property Furniture Architecture / Hektor was not detected...
+20200506_010853 / Sensor MEDIUM
+20200506_010901 / Sensor HIGH / Detected as: Room Pink Kitchen Sink Interior design Material property House Furniture Interior design / Hektor was not detected...
+20200506_010904 / Sensor MEDIUM
+20200506_013318 / Sensor HIGH / Detected as: Pink Room Interior design Furniture Kitchen Material property House Architecture Table Curtain / Hektor was not detected...
+20200506_013323 / Sensor MEDIUM
+20200506_013349 / Sensor HIGH / Detected as: Room Property Kitchen Interior design Pink Furniture Material property House Sink Countertop / Hektor was not detected...
+20200506_013354 / Sensor MEDIUM
+20200506_015108 / Sensor HIGH / Detected as: Room Property Pink Interior design Kitchen Furniture Architecture House Material property Curtain / Hektor was not detected...
+20200506_015111 / Sensor MEDIUM
+20200506_015544 / Sensor HIGH / Detected as: Black Darkness Light Lighting Night Room Midnight Photography Sky Architecture / Hektor was not detected...
+20200506_015548 / Sensor MEDIUM
+20200506_015552 / Sensor HIGH / Detected as: Black Darkness Light Lighting Night Room Midnight Photography Sky Architecture / Hektor was not detected...
+20200506_015555 / Sensor MEDIUM
+20200506_015609 / Sensor HIGH / Detected as: Black Darkness Light Night Lighting Room Midnight Photography Sky Architecture / Hektor was not detected...
+20200506_015611 / Sensor MEDIUM
+20200506_015654 / Sensor HIGH / Detected as: Black Darkness Light Lighting Night Room Photography Midnight Sky Architecture / Hektor was not detected...
+20200506_015657 / Sensor MEDIUM
+20200506_015703 / Sensor HIGH / Detected as: Black Darkness Light Lighting Night Room Snapshot Photography Midnight Sky / Hektor was not detected...
+20200506_015706 / Sensor MEDIUM
+20200506_015717 / Sensor HIGH / Detected as: Black Darkness Light Lighting Night Brown Room Midnight Photography Sky / Hektor was not detected...
+20200506_015720 / Sensor MEDIUM
+20200506_015740 / Sensor HIGH / Detected as: Black Darkness Light Night Lighting Room Midnight Photography Sky Architecture / Hektor was not detected...
+20200506_015742 / Sensor MEDIUM
+20200506_022410 / Sensor HIGH / Detected as: Darkness Black Light Red Lighting Photography Room Night Still life photography Stage / Hektor was not detected...
+20200506_022413 / Sensor MEDIUM
+20200506_091656 / Sensor HIGH / Detected as: Cat Room Architecture Night Felidae Tail / Hektor was not detected...
+20200506_091658 / Sensor MEDIUM
+20200506_092012 / Sensor HIGH / Detected as: Purple Light Room Violet Architecture Night House Interior design Photography Furniture / Hektor was not detected...
+20200506_092014 / Sensor MEDIUM
+20200506_092029 / Sensor HIGH / Detected as: Purple Light Violet Room Pink Architecture Interior design Night Table House / Hektor was not detected...
+20200506_092031 / Sensor MEDIUM
+20200506_092424 / Sensor HIGH / Detected as: Purple Light Violet Room Pink Sky House Interior design Architecture Furniture / Hektor was not detected...
+20200506_092426 / Sensor MEDIUM
+20200506_092431 / Sensor HIGH / Detected as: Purple Light Violet Pink Room Interior design House Architecture Table Magenta / Hektor was not detected...
+20200506_092433 / Sensor MEDIUM
+20200506_092437 / Sensor HIGH / Detected as: Purple Light Violet Pink Room Interior design Architecture House Table Furniture / Hektor was not detected...
+20200506_092440 / Sensor MEDIUM
+20200506_092712 / Sensor HIGH / Detected as: Purple Violet Pink Light Room Interior design House Architecture Magenta Table / Hektor was not detected...
+20200506_092714 / Sensor MEDIUM
+20200506_092719 / Sensor HIGH / Detected as: Purple Pink Violet Light Room Interior design Material property House Magenta Architecture / Hektor was not detected...
+20200506_092721 / Sensor MEDIUM
+20200506_092847 / Sensor HIGH / Detected as: Purple Violet Pink Light Room Interior design Material property House Architecture Table / Hektor was not detected...
+20200506_092849 / Sensor MEDIUM
+20200506_092925 / Sensor HIGH / Detected as: Purple Violet Pink Room Interior design Material property House Architecture Table Magenta / Hektor was not detected...
+20200506_092927 / Sensor MEDIUM
+20200506_092931 / Sensor HIGH / Detected as: Purple Violet Pink Light Room Interior design Material property House Architecture Table / Hektor was not detected...
+20200506_092933 / Sensor MEDIUM
+20200506_092945 / Sensor HIGH / Detected as: Purple Violet Pink Room Interior design Material property House Architecture Table Building / Hektor was not detected...
+20200506_092947 / Sensor MEDIUM
+20200506_093001 / Sensor HIGH / Detected as: Purple Violet Pink Room Interior design Material property House Architecture Table Magenta / Hektor was not detected...
+20200506_093003 / Sensor MEDIUM
+20200506_093011 / Sensor HIGH / Detected as: Purple Pink Violet Room House Interior design Material property Architecture Table Magenta / Hektor was not detected...
+20200506_093013 / Sensor MEDIUM
+20200506_093539 / Sensor HIGH / Detected as: Purple Violet Pink Light Room Interior design House Architecture Table Furniture / Hektor was not detected...
+20200506_093543 / Sensor MEDIUM
+20200506_093740 / Sensor HIGH / Detected as: Red Pink Purple Magenta Violet Room Mouth Fun Muscle Photography / Hektor was not detected...
+20200506_093743 / Sensor MEDIUM
+20200506_093755 / Sensor HIGH / Detected as: Red Pink Purple Magenta Violet Room Mouth Fun Leg Photography / Hektor was not detected...
+20200506_093757 / Sensor MEDIUM
+20200506_093804 / Sensor HIGH / Detected as: Red Pink Purple Magenta Room Mouth Fun Leg Muscle Flesh / Hektor was not detected...
+20200506_093806 / Sensor MEDIUM
+20200506_093823 / Sensor HIGH / Detected as: Pink Cat Leg Felidae Tail Small to medium-sized cats Textile Kitten Hand Bed / Hektor was detected!
+20200506_093841 / Sensor LOW
+20200506_093931 / Sensor HIGH / Detected as: Pink Red Purple Room Light Violet Wall Architecture Lighting House / Hektor was not detected...
+20200506_093933 / Sensor MEDIUM
+20200506_094022 / Sensor HIGH / Detected as: Pink Red Purple Room Light Violet Architecture Wall Lighting Magenta / Hektor was not detected...
+20200506_094024 / Sensor MEDIUM
+20200506_094034 / Sensor HIGH / Detected as: Pink Red Purple Room Light Violet Wall Magenta Architecture Lighting / Hektor was not detected...
+20200506_094036 / Sensor MEDIUM
+20200506_094240 / Sensor HIGH / Detected as: Violet Purple Pink Red Magenta Lilac Textile Room Material property Floor / Hektor was not detected...
+20200506_094253 / Sensor LOW
+20200506_094300 / Sensor HIGH / Detected as: Violet Purple Pink Red Magenta Lilac Textile Bed sheet Room Material property / Hektor was not detected...
+20200506_094312 / Sensor MEDIUM
+20200506_094430 / Sensor HIGH / Detected as: Pink Purple Room Curtain Textile Interior design Magenta Furniture Performance / Hektor was not detected...
+20200506_094443 / Sensor LOW
+20200506_094515 / Sensor HIGH / Detected as: Pink Curtain Interior design Window treatment Room Cat Textile Felidae Window covering Furniture / Hektor was detected!
+20200506_094542 / Sensor LOW
+20200506_094551 / Sensor HIGH / Detected as: Pink Shoulder Red T-shirt Standing Arm Joint Magenta Room Sleeve / Hektor was not detected...
+20200506_094603 / Sensor LOW
+20200506_094607 / Sensor HIGH / Detected as: Pink Shoulder Arm Long hair Leg Joint Magenta Textile Neck Elbow / Hektor was not detected...
+20200506_094619 / Sensor MEDIUM
+20200506_094619 / Sensor HIGH / Detected as: Pink Shoulder Magenta Room Textile Leg Photography Long hair Peach T-shirt / Hektor was not detected...
+20200506_094631 / Sensor LOW
+20200506_094634 / Sensor HIGH / Detected as: Pink Shoulder Standing Magenta Curtain Room Joint Textile Interior design T-shirt / Hektor was not detected...
+20200506_094646 / Sensor LOW
+20200506_103245 / Sensor HIGH / Detected as: Pink Red Magenta Purple Textile Leg Room Stage Flesh Curtain / Hektor was not detected...
+20200506_103258 / Sensor LOW
+20200506_103302 / Sensor HIGH / Detected as: Pink Red Purple Magenta Textile Leg Room Curtain / Hektor was not detected...
+20200506_103314 / Sensor MEDIUM
+20200506_103320 / Sensor HIGH / Detected as: Red Pink Purple Magenta Leg Textile Shoulder Room Thread Weaving / Hektor was not detected...
+20200506_103332 / Sensor MEDIUM
+20200506_103333 / Sensor HIGH / Detected as: Pink Magenta Textile Leg / Hektor was not detected...
+20200506_103345 / Sensor MEDIUM
+20200506_103346 / Sensor HIGH / Detected as: Red Pink Purple Magenta Textile Leg Art / Hektor was not detected...
+20200506_103359 / Sensor MEDIUM
+20200506_103400 / Sensor HIGH / Detected as: Pink Purple Shoulder Leg Magenta Arm Textile Joint Human body Room / Hektor was not detected...
+20200506_103412 / Sensor MEDIUM
+20200506_103413 / Sensor HIGH / Detected as: Purple Pink Leg Textile Human body Magenta Human leg Flesh / Hektor was not detected...
+20200506_103425 / Sensor MEDIUM
+20200506_103428 / Sensor HIGH / Detected as: Pink Purple Magenta Textile Leg Flesh Weaving Art / Hektor was not detected...
+20200506_103440 / Sensor LOW
+20200506_103444 / Sensor HIGH / Detected as: Red Pink Purple Magenta Leg Human body Textile Room Flesh Art / Hektor was not detected...
+20200506_103456 / Sensor MEDIUM
+20200506_103456 / Sensor HIGH / Detected as: Pink Purple Magenta Leg Textile Human body Weaving Room Art Flesh / Hektor was not detected...
+20200506_103508 / Sensor MEDIUM
+20200506_103509 / Sensor HIGH / Detected as: Purple Textile Magenta / Hektor was not detected...
+20200506_103521 / Sensor MEDIUM
+20200506_103522 / Sensor HIGH / Detected as: Pink Purple Violet Textile Magenta / Hektor was not detected...
+20200506_103534 / Sensor MEDIUM
+20200506_103535 / Sensor HIGH / Detected as: Pink Red Purple Textile Magenta Leg Curtain / Hektor was not detected...
+20200506_103546 / Sensor MEDIUM
+20200506_103547 / Sensor HIGH / Detected as: Pink Leg Textile Magenta Flesh / Hektor was not detected...
+20200506_103559 / Sensor MEDIUM
+20200506_103600 / Sensor HIGH / Detected as: Pink Purple Textile Magenta Leg Weaving Thread Art / Hektor was not detected...
+20200506_103611 / Sensor MEDIUM
+20200506_103612 / Sensor HIGH / Detected as: Purple Pink Shoulder Magenta Leg Textile Dress / Hektor was not detected...
+20200506_103624 / Sensor MEDIUM
+20200506_103626 / Sensor HIGH / Detected as: Red Pink Purple Magenta Leg Textile Human body Flesh Art / Hektor was not detected...
+20200506_103638 / Sensor LOW
+20200506_103642 / Sensor HIGH / Detected as: Pink Purple Textile Leg Magenta / Hektor was not detected...
+20200506_103653 / Sensor LOW
+20200506_103719 / Sensor HIGH / Detected as: Pink Purple Violet Shoulder Magenta Textile Plant / Hektor was not detected...
+20200506_103731 / Sensor LOW
+20200506_103745 / Sensor HIGH / Detected as: Pink Red Textile Purple Leg Curtain Magenta Flesh Art / Hektor was not detected...
+20200506_103757 / Sensor MEDIUM
+20200506_103803 / Sensor HIGH / Detected as: Pink Red Purple Textile Magenta Leg / Hektor was not detected...
+20200506_103815 / Sensor MEDIUM
+20200506_103815 / Sensor HIGH / Detected as: Pink Red Purple Textile Magenta Leg Curtain / Hektor was not detected...
+20200506_103827 / Sensor MEDIUM
+20200506_103829 / Sensor HIGH / Detected as: Pink Red Purple Textile Magenta Leg Curtain / Hektor was not detected...
+20200506_103841 / Sensor MEDIUM
+20200506_103841 / Sensor HIGH / Detected as: Pink Red Purple Textile Leg Magenta / Hektor was not detected...
+20200506_103853 / Sensor LOW
+20200506_103904 / Sensor HIGH / Detected as: Pink Purple Textile Leg Magenta / Hektor was not detected...
+20200506_103915 / Sensor LOW
+20200506_103946 / Sensor HIGH / Detected as: Pink Textile Leg Magenta Art / Hektor was not detected...
+20200506_103958 / Sensor LOW
+20200506_104047 / Sensor HIGH / Detected as: Pink Textile Leg Magenta / Hektor was not detected...
+20200506_104058 / Sensor MEDIUM
+20200506_104059 / Sensor HIGH / Detected as: Pink Purple Textile Magenta Room Flesh Performance / Hektor was not detected...
+20200506_104111 / Sensor LOW
+20200506_104147 / Sensor HIGH / Detected as: Pink Room Textile Magenta Bed / Hektor was not detected...
+20200506_104159 / Sensor LOW
+20200506_104204 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104215 / Sensor LOW
+20200506_104246 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104258 / Sensor LOW
+20200506_104303 / Sensor HIGH / Detected as: Pink Room Textile Magenta Furniture / Hektor was not detected...
+20200506_104315 / Sensor LOW
+20200506_104347 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104359 / Sensor LOW
+20200506_104403 / Sensor HIGH / Detected as: Pink Room Purple Textile Bed Magenta / Hektor was not detected...
+20200506_104415 / Sensor LOW
+20200506_104503 / Sensor HIGH / Detected as: Pink Room Textile Magenta Bed / Hektor was not detected...
+20200506_104515 / Sensor LOW
+20200506_104547 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104559 / Sensor LOW
+20200506_104604 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104615 / Sensor LOW
+20200506_104646 / Sensor HIGH / Detected as: Pink Room Textile Magenta Bed / Hektor was not detected...
+20200506_104658 / Sensor LOW
+20200506_104703 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104715 / Sensor LOW
+20200506_104747 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta / Hektor was not detected...
+20200506_104758 / Sensor LOW
+20200506_104803 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104815 / Sensor LOW
+20200506_104847 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104859 / Sensor LOW
+20200506_104904 / Sensor HIGH / Detected as: Pink Room Purple Textile Magenta / Hektor was not detected...
+20200506_104916 / Sensor LOW
+20200506_104946 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_104958 / Sensor LOW
+20200506_105003 / Sensor HIGH / Detected as: Pink Room Textile Magenta / Hektor was not detected...
+20200506_105015 / Sensor LOW
+20200506_105047 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta / Hektor was not detected...
+20200506_105059 / Sensor LOW
+20200506_105103 / Sensor HIGH / Detected as: Pink Purple Room Magenta Textile / Hektor was not detected...
+20200506_105115 / Sensor LOW
+20200506_105203 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta Furniture Bed / Hektor was not detected...
+20200506_105215 / Sensor LOW
+20200506_105247 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta Furniture Bed / Hektor was not detected...
+20200506_105258 / Sensor LOW
+20200506_105303 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta Bed Furniture / Hektor was not detected...
+20200506_105315 / Sensor LOW
+20200506_105347 / Sensor HIGH / Detected as: Pink Purple Room Bed Magenta Textile Furniture / Hektor was not detected...
+20200506_105358 / Sensor LOW
+20200506_105403 / Sensor HIGH / Detected as: Pink Purple Room Magenta Textile Bed Furniture / Hektor was not detected...
+20200506_105415 / Sensor LOW
+20200506_105447 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta Bed / Hektor was not detected...
+20200506_105459 / Sensor LOW
+20200506_105504 / Sensor HIGH / Detected as: Pink Room Purple Textile Bed Magenta / Hektor was not detected...
+20200506_105515 / Sensor LOW
+20200506_105525 / Sensor HIGH / Detected as: Pink Purple Room Textile Magenta Bed / Hektor was not detected...
+20200506_105536 / Sensor LOW
+20200506_105546 / Sensor HIGH / Detected as: Pink Purple Room Textile Bed Magenta / Hektor was not detected...
+20200506_105558 / Sensor LOW
+20200511_143917 / Sensor HIGH
+20200511_143919 / Sensor MEDIUM
+20200511_143921 / Sensor HIGH
+20200511_143922 / Sensor MEDIUM
+20200511_143929 / Sensor HIGH
+20200511_143931 / Sensor MEDIUM
+20200511_143940 / Sensor HIGH
+20200511_143942 / Sensor MEDIUM
+20200511_143944 / Sensor HIGH
+20200511_143945 / Sensor MEDIUM
+KeyboardInterrupt
+KeyboardInterrupt
+20200511_144917 / Sensor HIGH
+20200511_144919 / Sensor MEDIUM
+20200511_144921 / Sensor HIGH
+20200511_144922 / Sensor LOW
+20200511_144929 / Sensor HIGH
+20200511_144931 / Sensor MEDIUM
+20200511_144933 / Sensor HIGH
+20200511_144935 / Sensor MEDIUM
+20200511_144954 / Sensor HIGH
+20200511_144956 / Sensor MEDIUM
+20200511_144958 / Sensor HIGH
+20200511_145000 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_145605 / Sensor HIGH / Hektor was not detected...
+20200511_145607 / Sensor LOW
+20200511_145612 / Sensor HIGH / Hektor was not detected...
+20200511_145614 / Sensor LOW
+20200511_145616 / Sensor HIGH / Hektor was not detected...
+20200511_145618 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_145945 / Sensor HIGH / Hektor was not detected...
+20200511_145947 / Sensor MEDIUM
+20200511_145951 / Sensor HIGH / Hektor was not detected...
+20200511_145953 / Sensor MEDIUM
+20200511_150007 / Sensor HIGH / Hektor was not detected...
+20200511_150009 / Sensor LOW
+20200511_150011 / Sensor HIGH / Hektor was not detected...
+20200511_150012 / Sensor MEDIUM
+20200511_150059 / Sensor HIGH / Hektor was detected!
+20200511_150117 / Sensor LOW
+KeyboardInterrupt
+20200511_152814: System started.
+20200511_153220: System started.
+20200511_153415: System started.
+20200511_153416 / Sensor HIGH / Hektor was not detected... / 0 person 0.562
+20200511_153418 / Sensor MEDIUM
+20200511_153418 / Sensor HIGH / Hektor was not detected... / 0 person 0.562
+20200511_153419 / Sensor MEDIUM
+20200511_153420 / Sensor HIGH / Hektor was not detected... / 0 person 0.562
+20200511_153421 / Sensor MEDIUM
+20200511_153421 / Sensor HIGH / Hektor was not detected... / 64 bed 0.574
+20200511_153423 / Sensor MEDIUM
+20200511_153423 / Sensor HIGH / Hektor was not detected... / 64 bed 0.562
+20200511_153424 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_154306: System started.
+20200511_154308 / Sensor HIGH / 451 ms / Hektor was not detected... / 0 person 0.551 / 64 bed 0.523
+20200511_154309 / Sensor MEDIUM
+20200511_154310 / Sensor HIGH / 502 ms / Hektor was not detected... / 0 person 0.539 / 64 bed 0.500
+20200511_154311 / Sensor MEDIUM
+20200511_154312 / Sensor HIGH / 453 ms / Hektor was not detected... / 0 person 0.539 / 64 bed 0.539
+20200511_154313 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_154503: System started.
+20200511_154506 / Sensor HIGH / 443 ms / Hektor was not detected... / 64 bed 0.523 / 0 person 0.512
+20200511_154507 / Sensor MEDIUM
+20200511_154508 / Sensor HIGH / 461 ms / Hektor was not detected... / 0 person 0.551 / 64 bed 0.523
+20200511_154510 / Sensor MEDIUM
+20200511_154511 / Sensor HIGH / 479 ms / Hektor was not detected... / 64 bed 0.574 / 0 person 0.477
+20200511_154512 / Sensor MEDIUM
+20200511_154513 / Sensor HIGH / 457 ms / Hektor was detected! / 64 bed 0.633 / 16 cat 0.586 / 64 bed 0.477
+20200511_154521 / Sensor MEDIUM
+20200511_154522 / Sensor HIGH / 495 ms / Hektor was not detected... / 64 bed 0.609 / 61 chair 0.523
+20200511_154524 / Sensor MEDIUM
+20200511_154525 / Sensor HIGH / 473 ms / Hektor was not detected... / 64 bed 0.621 / 61 chair 0.523
+20200511_154527 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_155453: System started.
+20200511_155511 / Sensor HIGH / 462 ms / Hektor was not detected... / 31 tie 0.809 / 31 tie 0.645 / 0 person 0.586 / 31 tie 0.477 / 31 tie 0.449 / 31 tie 0.438 / 31 tie 0.402
+20200511_155512 / Sensor MEDIUM
+20200511_155514 / Sensor HIGH / 493 ms / Hektor was not detected... / 64 bed 0.609 / 64 bed 0.449 / 61 chair 0.449 / 61 chair 0.449
+20200511_155516 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_161255: System started.
+20200511_161314 / Sensor HIGH / 444 ms / Hektor was not detected... / 64 bed 0.488 / 0 person 0.426 / 64 bed 0.426 / 64 bed 0.414 / 61 chair 0.402
+20200511_161316 / Sensor MEDIUM
+20200511_161318 / Sensor HIGH / 441 ms / Hektor was not detected... / 64 bed 0.574 / 0 person 0.512 / 61 chair 0.500 / 64 bed 0.477 / 64 bed 0.449 / 71 tv 0.438 / 61 chair 0.414
+20200511_161319 / Sensor MEDIUM
+20200511_161321 / Sensor HIGH / 440 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.523 / 64 bed 0.477 / 61 chair 0.461 / 64 bed 0.461
+20200511_161323 / Sensor MEDIUM
+20200511_161325 / Sensor HIGH / 487 ms / Hektor was not detected... / 64 bed 0.523 / 0 person 0.523 / 64 bed 0.449 / 69 toilet 0.438 / 64 bed 0.426 / 0 person 0.414
+20200511_161327 / Sensor MEDIUM
+20200511_161329 / Sensor HIGH / 486 ms / Hektor was not detected... / 64 bed 0.551 / 61 chair 0.477 / 64 bed 0.461 / 64 bed 0.449 / 69 toilet 0.438
+20200511_161330 / Sensor MEDIUM
+20200511_161332 / Sensor HIGH / 485 ms / Hektor was not detected... / 64 bed 0.574 / 0 person 0.551 / 61 chair 0.500 / 64 bed 0.477 / 64 bed 0.414
+20200511_161334 / Sensor MEDIUM
+20200511_161336 / Sensor HIGH / 488 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.539 / 61 chair 0.488 / 64 bed 0.477 / 64 bed 0.449 / 61 chair 0.414
+20200511_161337 / Sensor LOW
+20200511_161343 / Sensor HIGH / 871 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.551 / 61 chair 0.500 / 64 bed 0.461 / 64 bed 0.414
+20200511_161345 / Sensor MEDIUM
+20200511_161356 / Sensor HIGH / 563 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.551 / 61 chair 0.500 / 64 bed 0.461 / 64 bed 0.414 / 61 chair 0.414
+20200511_161358 / Sensor LOW
+20200511_161405 / Sensor HIGH / 985 ms / Hektor was not detected... / 64 bed 0.574 / 0 person 0.523 / 61 chair 0.500 / 64 bed 0.449 / 64 bed 0.414 / 61 chair 0.414
+20200511_161408 / Sensor LOW
+20200511_161412 / Sensor HIGH / 898 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.551 / 61 chair 0.523 / 64 bed 0.461 / 64 bed 0.414 / 61 chair 0.414
+20200511_161414 / Sensor MEDIUM
+20200511_161509 / Sensor HIGH / 447 ms / Hektor was not detected... / 0 person 0.551 / 64 bed 0.523 / 61 chair 0.512 / 64 bed 0.461 / 62 couch 0.438 / 71 tv 0.402
+20200511_161511 / Sensor LOW
+20200511_161515 / Sensor HIGH / 518 ms / Hektor was not detected... / 64 bed 0.562 / 0 person 0.551 / 61 chair 0.488 / 64 bed 0.461 / 64 bed 0.402
+20200511_161516 / Sensor LOW
+20200511_161522 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.551 / 0 person 0.414
+20200511_161523 / Sensor MEDIUM
+20200511_161530 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.586
+20200511_161531 / Sensor MEDIUM
+20200511_161533 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.461 / 0 person 0.402
+20200511_161535 / Sensor MEDIUM
+20200511_161544 / Sensor HIGH / 505 ms / Hektor was not detected... / 0 person 0.688
+20200511_161546 / Sensor MEDIUM
+20200511_161552 / Sensor HIGH / 503 ms / Hektor was detected! / 16 cat 0.801 / 16 cat 0.500
+20200511_161612 / Sensor MEDIUM
+20200511_161614 / Sensor HIGH / 449 ms / Hektor was not detected... / 4 airplane 0.426 / 69 toilet 0.402
+20200511_161615 / Sensor MEDIUM
+20200511_161617 / Sensor HIGH / 447 ms / Hektor was not detected... / 69 toilet 0.438 / 4 airplane 0.414
+20200511_161619 / Sensor LOW
+20200511_161621 / Sensor HIGH / 462 ms / Hektor was not detected... / 4 airplane 0.414
+20200511_161623 / Sensor LOW
+20200511_161643 / Sensor HIGH / 694 ms / Hektor was not detected... / 4 airplane 0.438 / 69 toilet 0.402
+20200511_161645 / Sensor LOW
+20200511_161651 / Sensor HIGH / 935 ms / Hektor was not detected... / 4 airplane 0.449 / 69 toilet 0.426
+20200511_161654 / Sensor MEDIUM
+20200511_161656 / Sensor HIGH / 919 ms / Hektor was not detected... / 4 airplane 0.461
+20200511_161658 / Sensor MEDIUM
+20200511_161700 / Sensor HIGH / 447 ms / Hektor was not detected... / 4 airplane 0.461 / 69 toilet 0.414
+20200511_161702 / Sensor MEDIUM
+20200511_161704 / Sensor HIGH / 830 ms / Hektor was not detected... / 4 airplane 0.461 / 69 toilet 0.426
+20200511_161706 / Sensor MEDIUM
+20200511_161708 / Sensor HIGH / 781 ms / Hektor was not detected... / 4 airplane 0.438 / 69 toilet 0.414
+20200511_161710 / Sensor LOW
+20200511_161715 / Sensor HIGH / 875 ms / Hektor was not detected... / 4 airplane 0.461 / 69 toilet 0.414
+20200511_161717 / Sensor MEDIUM
+20200511_161728 / Sensor HIGH / 445 ms / Hektor was not detected... / 4 airplane 0.449
+20200511_161730 / Sensor MEDIUM
+20200511_161735 / Sensor HIGH / 513 ms / Hektor was not detected... / 4 airplane 0.426 / 69 toilet 0.414
+20200511_161737 / Sensor MEDIUM
+20200511_161740 / Sensor HIGH / 513 ms / Hektor was not detected... / 4 airplane 0.438
+20200511_161741 / Sensor MEDIUM
+20200511_161746 / Sensor HIGH / 499 ms / Hektor was not detected... / 4 airplane 0.449
+20200511_161748 / Sensor MEDIUM
+20200511_161755 / Sensor HIGH / 513 ms / Hektor was not detected... / 4 airplane 0.414
+20200511_161757 / Sensor MEDIUM
+20200511_161802 / Sensor HIGH / 454 ms / Hektor was not detected... / 4 airplane 0.438
+20200511_161803 / Sensor LOW
+20200511_161805 / Sensor HIGH / 554 ms / Hektor was not detected... / 4 airplane 0.461
+20200511_161807 / Sensor MEDIUM
+20200511_161816 / Sensor HIGH / 646 ms / Hektor was not detected... / 4 airplane 0.461
+20200511_161818 / Sensor MEDIUM
+20200511_161820 / Sensor HIGH / 442 ms / Hektor was not detected... / 4 airplane 0.438 / 69 toilet 0.402
+20200511_161822 / Sensor LOW
+20200511_161829 / Sensor HIGH / 442 ms / Hektor was not detected... / 4 airplane 0.477
+20200511_161831 / Sensor LOW
+20200511_161835 / Sensor HIGH / 1015 ms / Hektor was not detected... / 4 airplane 0.461
+20200511_161837 / Sensor MEDIUM
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  20200511_161726: System started.
+20200511_162015 / Sensor HIGH / 444 ms / Hektor was detected! / 16 cat 0.668 / 81 refrigerator 0.512
+20200511_162033 / Sensor LOW
+20200511_162107 / Sensor HIGH / 632 ms / Hektor was not detected... / 4 airplane 0.488
+20200511_162109 / Sensor MEDIUM
+20200511_162205 / Sensor HIGH / 1137 ms / Hektor was not detected... / 4 airplane 0.523 / 61 chair 0.402
+20200511_162208 / Sensor LOW
+20200511_162216 / Sensor HIGH / 497 ms / Hektor was not detected... / 4 airplane 0.551 / 4 airplane 0.449 / 61 chair 0.414
+20200511_162218 / Sensor LOW
+20200511_162222 / Sensor HIGH / 511 ms / Hektor was not detected... / 46 cup 0.668 / 0 person 0.609 / 0 person 0.461 / 46 cup 0.426
+20200511_162224 / Sensor MEDIUM
+20200511_162234 / Sensor HIGH / 444 ms / Hektor was not detected... / 46 cup 0.680 / 0 person 0.633 / 0 person 0.414 / 0 person 0.414 / 72 laptop 0.402 / 46 cup 0.402
+20200511_162235 / Sensor MEDIUM
+20200511_162245 / Sensor HIGH / 444 ms / Hektor was detected! / 16 cat 0.668 / 46 cup 0.402
+20200511_162303 / Sensor MEDIUM
+20200511_162305 / Sensor HIGH / 726 ms / Hektor was not detected... / 46 cup 0.586 / 0 person 0.512
+20200511_162307 / Sensor LOW
+20200511_162311 / Sensor HIGH / 452 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.512 / 64 bed 0.512
+20200511_162313 / Sensor MEDIUM
+20200511_162315 / Sensor HIGH / 454 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.512 / 64 bed 0.500
+20200511_162317 / Sensor MEDIUM
+20200511_162319 / Sensor HIGH / 902 ms / Hektor was not detected... / 61 chair 0.539 / 62 couch 0.512 / 64 bed 0.500
+20200511_162322 / Sensor LOW
+20200511_162324 / Sensor HIGH / 451 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.523 / 64 bed 0.500
+20200511_162325 / Sensor LOW
+20200511_162328 / Sensor HIGH / 1048 ms / Hektor was not detected... / 64 bed 0.523 / 61 chair 0.512 / 64 bed 0.488
+20200511_162330 / Sensor LOW
+20200511_162333 / Sensor HIGH / 733 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.523 / 64 bed 0.488
+20200511_162336 / Sensor MEDIUM
+20200511_162338 / Sensor HIGH / 501 ms / Hektor was not detected... / 64 bed 0.523 / 61 chair 0.512 / 64 bed 0.488
+20200511_162340 / Sensor MEDIUM
+20200511_162348 / Sensor HIGH / 854 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.512 / 64 bed 0.477
+20200511_162351 / Sensor MEDIUM
+20200511_162355 / Sensor HIGH / 466 ms / Hektor was not detected... / 64 bed 0.523 / 61 chair 0.512 / 64 bed 0.488
+20200511_162357 / Sensor LOW
+20200511_162401 / Sensor HIGH / 911 ms / Hektor was not detected... / 64 bed 0.523 / 61 chair 0.512 / 64 bed 0.488
+20200511_162403 / Sensor MEDIUM
+20200511_162409 / Sensor HIGH / 902 ms / Hektor was not detected... / 61 chair 0.512 / 62 couch 0.500 / 64 bed 0.477
+20200511_162412 / Sensor LOW
+20200511_162416 / Sensor HIGH / 456 ms / Hektor was not detected... / 61 chair 0.586 / 0 person 0.477 / 46 cup 0.414
+20200511_162418 / Sensor MEDIUM
+20200511_162424 / Sensor HIGH / 582 ms / Hektor was not detected... / 61 chair 0.551 / 64 bed 0.477 / 64 bed 0.449
+20200511_162426 / Sensor MEDIUM
+20200511_162428 / Sensor HIGH / 468 ms / Hektor was not detected... / 0 person 0.598 / 64 bed 0.449
+20200511_162429 / Sensor MEDIUM
+20200511_162433 / Sensor HIGH / 468 ms / Hektor was not detected... / 61 chair 0.551 / 64 bed 0.539 / 64 bed 0.461
+20200511_162435 / Sensor LOW
+20200511_162437 / Sensor HIGH / 841 ms / Hektor was not detected... / 0 person 0.598 / 61 chair 0.539 / 62 couch 0.512 / 64 bed 0.477
+20200511_162440 / Sensor MEDIUM
+20200511_162442 / Sensor HIGH / 468 ms / Hektor was not detected... / 61 chair 0.523 / 64 bed 0.523 / 64 bed 0.488 / 80 sink 0.402
+20200511_162443 / Sensor MEDIUM
+20200511_162447 / Sensor HIGH / 914 ms / Hektor was not detected... / 61 chair 0.539 / 62 couch 0.539 / 64 bed 0.438 / 80 sink 0.414
+20200511_162450 / Sensor MEDIUM
+20200511_162452 / Sensor HIGH / 455 ms / Hektor was not detected... / 61 chair 0.551 / 64 bed 0.512 / 64 bed 0.488 / 80 sink 0.414
+20200511_162454 / Sensor MEDIUM
+20200511_162457 / Sensor HIGH / 451 ms / Hektor was not detected... / 61 chair 0.523 / 62 couch 0.512 / 64 bed 0.477 / 80 sink 0.414
+20200511_162459 / Sensor MEDIUM
+20200511_162501 / Sensor HIGH / 891 ms / Hektor was not detected... / 61 chair 0.539 / 64 bed 0.512 / 64 bed 0.477
+20200511_162503 / Sensor MEDIUM
+20200511_162505 / Sensor HIGH / 962 ms / Hektor was not detected... / 61 chair 0.551 / 62 couch 0.512 / 64 bed 0.477 / 80 sink 0.402
+20200511_162508 / Sensor LOW
+20200511_162519 / Sensor HIGH / 963 ms / Hektor was not detected... / 61 chair 0.551 / 64 bed 0.523 / 64 bed 0.449 / 80 sink 0.414
+20200511_162522 / Sensor MEDIUM
+20200511_162532 / Sensor HIGH / 449 ms / Hektor was not detected... / 64 bed 0.539 / 71 tv 0.426 / 43 bottle 0.402
+20200511_162534 / Sensor LOW
+20200511_162706: System started.
+KeyboardInterrupt
+20200511_162751: System started.
+20200511_162813 / Sensor HIGH / 441 ms / Hektor was not detected... / 43 bottle 0.512 / 66 dining table 0.461
+20200511_162815 / Sensor LOW
+20200511_162819 / Sensor HIGH / 451 ms / Hektor was not detected... / 62 couch 0.574 / 77 microwave 0.414
+20200511_162821 / Sensor MEDIUM
+20200511_162828 / Sensor HIGH / 498 ms / Hektor was not detected... / 71 tv 0.598 / 76 cell phone 0.488
+20200511_162830 / Sensor MEDIUM
+20200511_162837 / Sensor HIGH / 447 ms / Hektor was not detected... / 72 laptop 0.477 / 0 person 0.461 / 32 suitcase 0.461
+20200511_162839 / Sensor LOW
+20200511_162842 / Sensor HIGH / 448 ms / Hektor was not detected... / 32 suitcase 0.500 / 4 airplane 0.461
+20200511_162843 / Sensor MEDIUM
+20200511_162905 / Sensor HIGH / 448 ms / Hektor was not detected... / 4 airplane 0.512
+20200511_162906 / Sensor LOW
+20200511_162946 / Sensor HIGH / 448 ms / Hektor was not detected... / 76 cell phone 0.621 / 0 person 0.512
+20200511_162948 / Sensor MEDIUM
+20200511_162951 / Sensor HIGH / 451 ms / Hektor was not detected... / 0 person 0.574
+20200511_162953 / Sensor MEDIUM
+20200511_162957 / Sensor HIGH / 532 ms / Hektor was not detected...
+20200511_162959 / Sensor LOW
+20200511_163001 / Sensor HIGH / 503 ms / Hektor was not detected... / 0 person 0.574 / 0 person 0.539
+20200511_163003 / Sensor MEDIUM
+20200511_163005 / Sensor HIGH / 507 ms / Hektor was not detected... / 0 person 0.551
+20200511_163007 / Sensor MEDIUM
+20200511_163014 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.621 / 61 chair 0.598
+20200511_163016 / Sensor MEDIUM
+20200511_163025 / Sensor HIGH / 625 ms / Hektor was not detected...
+20200511_163027 / Sensor MEDIUM
+20200511_163034 / Sensor HIGH / 441 ms / Hektor was not detected...
+20200511_163036 / Sensor LOW
+20200511_163040 / Sensor HIGH / 445 ms / Hektor was not detected...
+20200511_163042 / Sensor MEDIUM
+20200511_163047 / Sensor HIGH / 473 ms / Hektor was not detected...
+20200511_163049 / Sensor MEDIUM
+20200511_163059 / Sensor HIGH / 458 ms / Hektor was not detected...
+20200511_163101 / Sensor MEDIUM
+20200511_163103 / Sensor HIGH / 442 ms / Hektor was not detected...
+20200511_163105 / Sensor MEDIUM
+20200511_162834: System started.
+20200511_163335 / Sensor HIGH / 444 ms / Hektor was not detected... / 81 refrigerator 0.500
+20200511_163337 / Sensor MEDIUM
+20200511_163339 / Sensor HIGH / 779 ms / Hektor was not detected... / 81 refrigerator 0.477
+20200511_163341 / Sensor MEDIUM
+20200511_163343 / Sensor HIGH / 489 ms / Hektor was not detected... / 81 refrigerator 0.461
+20200511_163345 / Sensor MEDIUM
+20200511_163347 / Sensor HIGH / 566 ms / Hektor was not detected... / 81 refrigerator 0.500 / 0 person 0.414 / 0 person 0.402
+20200511_163349 / Sensor MEDIUM
+20200511_163351 / Sensor HIGH / 705 ms / Hektor was not detected... / 81 refrigerator 0.461 / 0 person 0.402
+20200511_163353 / Sensor MEDIUM
+20200511_163355 / Sensor HIGH / 776 ms / Hektor was not detected... / 81 refrigerator 0.426
+20200511_163357 / Sensor MEDIUM
+20200511_163359 / Sensor HIGH / 587 ms / Hektor was not detected... / 81 refrigerator 0.488 / 0 person 0.402
+20200511_163401 / Sensor MEDIUM
+20200511_163403 / Sensor HIGH / 907 ms / Hektor was not detected... / 81 refrigerator 0.438 / 0 person 0.402
+20200511_163405 / Sensor MEDIUM
+20200511_163407 / Sensor HIGH / 483 ms / Hektor was not detected... / 81 refrigerator 0.449 / 0 person 0.402
+20200511_163409 / Sensor LOW
+20200511_163420 / Sensor HIGH / 1075 ms / Hektor was not detected... / 81 refrigerator 0.449 / 0 person 0.402
+20200511_163423 / Sensor MEDIUM
+20200511_163425 / Sensor HIGH / 518 ms / Hektor was not detected... / 81 refrigerator 0.512 / 0 person 0.402
+20200511_163426 / Sensor MEDIUM
+20200511_163431 / Sensor HIGH / 540 ms / Hektor was not detected... / 81 refrigerator 0.426
+20200511_163433 / Sensor MEDIUM
+20200511_163436 / Sensor HIGH / 452 ms / Hektor was not detected... / 81 refrigerator 0.438
+20200511_163438 / Sensor MEDIUM
+20200511_163453 / Sensor HIGH / 483 ms / Hektor was not detected... / 81 refrigerator 0.438 / 0 person 0.402
+20200511_163455 / Sensor MEDIUM
+20200511_163506 / Sensor HIGH / 898 ms / Hektor was not detected... / 81 refrigerator 0.461 / 0 person 0.402
+20200511_163508 / Sensor MEDIUM
+20200511_163510 / Sensor HIGH / 506 ms / Hektor was not detected... / 81 refrigerator 0.426
+20200511_163512 / Sensor LOW
+20200511_163518 / Sensor HIGH / 491 ms / Hektor was not detected... / 0 person 0.402
+20200511_163520 / Sensor LOW
+20200511_163523 / Sensor HIGH / 453 ms / Hektor was not detected... / 81 refrigerator 0.438
+20200511_163524 / Sensor MEDIUM
+20200511_163526 / Sensor HIGH / 826 ms / Hektor was not detected... / 81 refrigerator 0.414 / 0 person 0.402
+20200511_163529 / Sensor MEDIUM
+20200511_163537 / Sensor HIGH / 462 ms / Hektor was not detected... / 0 person 0.414 / 81 refrigerator 0.402
+20200511_163538 / Sensor LOW
+20200511_163541 / Sensor HIGH / 542 ms / Hektor was not detected... / 0 person 0.414 / 81 refrigerator 0.402
+20200511_163543 / Sensor LOW
+20200511_163637 / Sensor HIGH / 463 ms / Hektor was not detected... / 0 person 0.414 / 81 refrigerator 0.402
+20200511_163638 / Sensor MEDIUM
+20200511_163640 / Sensor HIGH / 463 ms / Hektor was not detected... / 0 person 0.449 / 81 refrigerator 0.402
+20200511_163642 / Sensor LOW
+20200511_163725 / Sensor HIGH / 485 ms / Hektor was not detected... / 81 refrigerator 0.402
+20200511_163727 / Sensor MEDIUM
+20200511_163730 / Sensor HIGH / 508 ms / Hektor was not detected...
+20200511_163732 / Sensor MEDIUM
+20200511_163734 / Sensor HIGH / 558 ms / Hektor was not detected... / 0 person 0.449 / 81 refrigerator 0.426
+20200511_163735 / Sensor MEDIUM
+20200511_163741 / Sensor HIGH / 881 ms / Hektor was not detected... / 81 refrigerator 0.402
+20200511_163743 / Sensor MEDIUM
+20200511_163750 / Sensor HIGH / 879 ms / Hektor was not detected... / 81 refrigerator 0.414
+20200511_163753 / Sensor MEDIUM
+20200511_163826 / Sensor HIGH / 444 ms / Hektor was not detected... / 0 person 0.438 / 81 refrigerator 0.402
+20200511_163828 / Sensor LOW
+20200511_163830 / Sensor HIGH / 513 ms / Hektor was not detected... / 0 person 0.426 / 81 refrigerator 0.402
+20200511_163832 / Sensor MEDIUM
+20200511_163834 / Sensor HIGH / 454 ms / Hektor was not detected... / 81 refrigerator 0.402
+20200511_163836 / Sensor MEDIUM
+20200511_163839 / Sensor HIGH / 492 ms / Hektor was not detected... / 0 person 0.426 / 81 refrigerator 0.426
+20200511_163841 / Sensor MEDIUM
+20200511_163843 / Sensor HIGH / 457 ms / Hektor was not detected... / 0 person 0.426 / 81 refrigerator 0.402
+20200511_163845 / Sensor MEDIUM
+20200511_163905 / Sensor HIGH / 577 ms / Hektor was not detected... / 81 refrigerator 0.414
+20200511_163907 / Sensor MEDIUM
+20200511_163939: System started.
