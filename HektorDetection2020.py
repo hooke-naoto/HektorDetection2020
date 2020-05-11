@@ -140,7 +140,7 @@ try:
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--model', help='File path of .tflite file.', required=True)
     parser.add_argument('--labels', help='File path of labels file.', required=True)
-    parser.add_argument('--threshold',　help='Threshold for detection.', required=False,
+    parser.add_argument('--threshold', help='Threshold for detection.', required=False,
                         type=float, default=0.4)
     args = parser.parse_args()
     labels = load_labels(args.labels)
