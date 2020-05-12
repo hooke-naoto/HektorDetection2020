@@ -1,0 +1,71 @@
+20200511_223326: System started.
+20200511_223349 / Sensor HIGH / 608 ms / Hektor was not detected... / 80 sink 0.645 / 71 tv 0.586 / 80 sink 0.512 / 80 sink 0.477 / 43 bottle 0.477 / 43 bottle 0.449 / 46 cup 0.438 / 43 bottle 0.414 / 43 bottle 0.414
+20200511_223350 / Sensor LOW
+20200511_223358 / Sensor HIGH / 787 ms / Hektor was not detected... / 80 sink 0.633 / 71 tv 0.586 / 80 sink 0.488 / 43 bottle 0.477 / 80 sink 0.477 / 46 cup 0.449 / 43 bottle 0.438 / 43 bottle 0.402 / 43 bottle 0.402
+20200511_223400 / Sensor LOW
+20200511_223406 / Sensor HIGH / 454 ms / Hektor was not detected... / 80 sink 0.645 / 71 tv 0.586 / 80 sink 0.488 / 80 sink 0.477 / 43 bottle 0.461 / 46 cup 0.449 / 43 bottle 0.438 / 43 bottle 0.402
+20200511_223407 / Sensor LOW
+20200511_223415 / Sensor HIGH / 804 ms / Hektor was not detected... / 80 sink 0.645 / 71 tv 0.586 / 80 sink 0.488 / 43 bottle 0.488 / 80 sink 0.477 / 46 cup 0.477 / 43 bottle 0.426
+20200511_223417 / Sensor MEDIUM
+20200511_223418 / Sensor HIGH / 868 ms / Hektor was not detected... / 80 sink 0.633 / 71 tv 0.586 / 80 sink 0.574 / 43 bottle 0.477 / 80 sink 0.477 / 46 cup 0.461 / 43 bottle 0.426 / 43 bottle 0.402 / 80 sink 0.402
+20200511_223419 / Sensor MEDIUM
+KeyboardInterrupt
+20200511_223524: System started.
+20200511_224012 / Sensor HIGH / 837 ms / Hektor was not detected...
+20200511_224014 / Sensor MEDIUM
+20200511_224016 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.645 / 71 tv 0.586 / 80 sink 0.477 / 46 cup 0.477 / 80 sink 0.449 / 43 bottle 0.414
+20200511_224018 / Sensor MEDIUM
+20200511_224022 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.633 / 71 tv 0.598 / 80 sink 0.461 / 46 cup 0.461 / 46 cup 0.449 / 80 sink 0.414
+20200511_224023 / Sensor LOW
+20200511_224038 / Sensor HIGH / 632 ms / Hektor was not detected... / 81 refrigerator 0.539
+20200511_224039 / Sensor MEDIUM
+20200511_224046 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.645 / 0 person 0.551 / 46 cup 0.488 / 80 sink 0.477 / 46 cup 0.477 / 43 bottle 0.461 / 80 sink 0.438 / 43 bottle 0.414 / 71 tv 0.414
+20200511_224047 / Sensor LOW
+20200511_224050 / Sensor HIGH / 440 ms / Hektor was not detected... / 0 person 0.645 / 81 refrigerator 0.512 / 81 refrigerator 0.402
+20200511_224051 / Sensor MEDIUM
+20200511_224055 / Sensor HIGH / 443 ms / Hektor was not detected... / 0 person 0.598 / 81 refrigerator 0.551 / 71 tv 0.461 / 0 person 0.438 / 78 oven 0.414
+20200511_224056 / Sensor MEDIUM
+20200511_224103 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.609 / 78 oven 0.488 / 71 tv 0.477
+20200511_224105 / Sensor MEDIUM
+20200511_224113 / Sensor HIGH / 836 ms / Hektor was not detected... / 80 sink 0.633 / 71 tv 0.609 / 80 sink 0.500 / 80 sink 0.461 / 46 cup 0.438 / 0 person 0.438 / 46 cup 0.426
+20200511_224115 / Sensor MEDIUM
+20200511_224157 / Sensor HIGH / 866 ms / Hektor was not detected... / 0 person 0.512
+20200511_224159 / Sensor MEDIUM
+20200511_224214 / Sensor HIGH / 578 ms / Hektor was not detected... / 0 person 0.488 / 81 refrigerator 0.426
+20200511_224215 / Sensor LOW
+20200511_224224 / Sensor HIGH / 439 ms / Hektor was not detected... / 0 person 0.609 / 61 chair 0.414
+20200511_224225 / Sensor LOW
+20200511_224230 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.668 / 66 dining table 0.414
+20200511_224231 / Sensor MEDIUM
+20200511_224238 / Sensor HIGH / 440 ms / Hektor was not detected... / 71 tv 0.551 / 46 cup 0.523 / 80 sink 0.488 / 81 refrigerator 0.449 / 43 bottle 0.438 / 80 sink 0.414
+20200511_224239 / Sensor MEDIUM
+20200511_224253 / Sensor HIGH / 439 ms / Hektor was not detected... / 71 tv 0.551 / 46 cup 0.512 / 80 sink 0.488 / 81 refrigerator 0.438 / 85 vase 0.402 / 43 bottle 0.402
+20200511_224255 / Sensor MEDIUM
+20200511_224624 / Sensor HIGH / 439 ms / Hektor was not detected... / 0 person 0.645 / 81 refrigerator 0.488 / 71 tv 0.461
+20200511_224626 / Sensor MEDIUM
+20200511_224629 / Sensor HIGH / 847 ms / Hektor was not detected... / 0 person 0.523 / 0 person 0.461 / 0 person 0.426 / 83 book 0.402
+20200511_224631 / Sensor MEDIUM
+20200511_224635 / Sensor HIGH / 505 ms / Hektor was not detected... / 71 tv 0.551 / 80 sink 0.488 / 46 cup 0.449 / 0 person 0.426 / 81 refrigerator 0.414 / 80 sink 0.402
+20200511_224637 / Sensor LOW
+20200511_224938 / Sensor HIGH / 439 ms / Hektor was not detected... / 71 tv 0.512 / 81 refrigerator 0.512 / 80 sink 0.477 / 80 sink 0.426 / 0 person 0.426 / 46 cup 0.414 / 63 potted plant 0.402 / 43 bottle 0.402
+20200511_224940 / Sensor LOW
+20200511_224945 / Sensor HIGH / 445 ms / Hektor was not detected... / 0 person 0.551 / 80 sink 0.512 / 80 sink 0.461 / 71 tv 0.449
+20200511_224946 / Sensor MEDIUM
+20200511_225403 / Sensor HIGH / 772 ms / Hektor was not detected... / 71 tv 0.551 / 0 person 0.461 / 81 refrigerator 0.438 / 0 person 0.438 / 80 sink 0.426
+20200511_225405 / Sensor LOW
+20200511_225407 / Sensor HIGH / 443 ms / Hektor was not detected... / 71 tv 0.523 / 0 person 0.512 / 71 tv 0.477 / 80 sink 0.449 / 0 person 0.449 / 80 sink 0.438
+20200511_225409 / Sensor LOW
+20200511_225412 / Sensor HIGH / 448 ms / Hektor was not detected... / 81 refrigerator 0.609 / 0 person 0.512 / 0 person 0.477 / 78 oven 0.426
+20200511_225413 / Sensor MEDIUM
+20200511_225415 / Sensor HIGH / 659 ms / Hektor was not detected... / 71 tv 0.551 / 43 bottle 0.500 / 80 sink 0.488 / 0 person 0.449 / 80 sink 0.414
+20200511_225417 / Sensor LOW
+20200511_234809 / Sensor HIGH / 435 ms / Hektor was detected! / 80 sink 0.551 / 0 person 0.539 / 71 tv 0.488 / 43 bottle 0.488 / 16 cat 0.426
+20200511_234827 / Sensor LOW
+20200511_235007 / Sensor HIGH / 883 ms / Hektor was detected! / 80 sink 0.551 / 0 person 0.512 / 43 bottle 0.500 / 71 tv 0.477 / 71 tv 0.414 / 16 cat 0.414 / 80 sink 0.414
+20200511_235025 / Sensor LOW
+20200511_235038 / Sensor HIGH / 899 ms / Hektor was not detected... / 0 person 0.551 / 80 sink 0.551 / 71 tv 0.512 / 43 bottle 0.500 / 80 sink 0.402 / 71 tv 0.402
+20200511_235040 / Sensor MEDIUM
+20200511_235115 / Sensor HIGH / 449 ms / Hektor was not detected... / 80 sink 0.551 / 0 person 0.523 / 43 bottle 0.488 / 71 tv 0.488 / 80 sink 0.414
+20200511_235117 / Sensor MEDIUM
+20200511_235119 / Sensor HIGH / 538 ms / Hektor was detected! / 71 tv 0.512 / 80 sink 0.512 / 81 refrigerator 0.449 / 43 bottle 0.449 / 0 person 0.438 / 80 sink 0.414 / 16 cat 0.414
+20200511_235136 / Sensor LOW

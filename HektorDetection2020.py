@@ -153,7 +153,7 @@ try:
     
     # [System started.] will be recorded to log file and notified to LINE.
     d = datetime.datetime.now()
-    fileobj = open("log.txt", "a")
+    fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
     fileobj.write(d.strftime("%Y%m%d_%H%M%S") + ": System started." + "\n")
     fileobj.close()
     camera.capture("tmp.jpg")
@@ -196,7 +196,7 @@ try:
             time.sleep(0.4)
 
             #### Sensor HIGH kept or not ####
-            if Counter >= 5:
+            if Counter >=  3:
                 
                 GPIO.output(LED, GPIO.HIGH) #### for LED ####
                 
@@ -224,10 +224,10 @@ try:
                 t_start = time.monotonic()
                 results = detect_objects(interpreter, image, args.threshold)
                 t_process = (time.monotonic() - t_start) * 1000
-                annotator.clear()
-                annotate_objects(annotator, results, labels)
-                annotator.text([5, 0], '%.1fms' % (t_process))
-                annotator.update()
+#                 annotator.clear()
+#                 annotate_objects(annotator, results, labels)
+#                 annotator.text([5, 0], '%.1fms' % (t_process))
+#                 annotator.update()
                 ID_data = ID_data + " / " + str(int(t_process)) + " ms"
                 HektorDetection = 0
                 for obj in results:
@@ -255,7 +255,6 @@ try:
                     ID_data = ID_data + " / " + str(int(obj["class_id"])) + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                 #### Detected info #### END
                       
-                time.sleep(0.2)
                 GPIO.output(LED, GPIO.LOW) #### for LED ####
                 
             else:
@@ -280,7 +279,7 @@ try:
                 DoRecord = 1
         if DoRecord == 1:
             print (ID_data)
-            fileobj = open("log.txt", "a")
+            fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
             fileobj.write(ID_data + "\n")
             fileobj.close()
         StatusSensorLast = StatusSensor
@@ -289,7 +288,7 @@ try:
 except KeyboardInterrupt:
     ID_data = "KeyboardInterrupt"
     print (ID_data)
-    fileobj = open("log.txt", "a")
+    fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
     fileobj.write(ID_data + "\n")
     fileobj.close()
 
