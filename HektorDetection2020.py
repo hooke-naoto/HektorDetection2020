@@ -193,10 +193,10 @@ try:
             GPIO.output(LED, GPIO.HIGH) #### for LED ####
             time.sleep(0.1)
             GPIO.output(LED, GPIO.LOW) #### for LED ####
-            time.sleep(0.4)
+            time.sleep(0.1)
 
             #### Sensor HIGH kept or not ####
-            if Counter >=  3:
+            if Counter >=  5:
                 
                 GPIO.output(LED, GPIO.HIGH) #### for LED ####
                 
@@ -242,7 +242,10 @@ try:
                     ID_data = ID_data + " / Hektor was detected!"
                     file_path_revised = file_path[0:file_path.rfind('.jpg')] + '_HektorDetected.jpg'
                     os.rename(file_path, file_path_revised)
-                    send_line("Hektor was detected!", file_path_revised)
+                    LINE_message = "Hektor was detected!"
+                    for obj in results:
+                        LINE_message = LINE_message + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
+                    send_line(LINE_message, file_path_revised)
                     Files = sorted(glob.glob(dir_sound + "/*.wav"))
                     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
                 else:
