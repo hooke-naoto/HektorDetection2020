@@ -1,0 +1,183 @@
+20200530_123343 / Sensor HIGH / 444 ms / Hektor was not detected... / 71 tv 0.609 / 0 person 0.609 / 61 chair 0.574 / 66 dining table 0.574 / 83 book 0.551 / 66 dining table 0.523 / 0 person 0.512 / 46 cup 0.488 / 46 cup 0.426 / 46 cup 0.426
+20200530_123511 / Sensor HIGH / 436 ms / Hektor was not detected... / 61 chair 0.699 / 71 tv 0.656 / 0 person 0.609 / 83 book 0.598 / 66 dining table 0.586 / 46 cup 0.523 / 66 dining table 0.512 / 83 book 0.477 / 46 cup 0.449 / 46 cup 0.438
+20200530_123713 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.645 / 66 dining table 0.609 / 61 chair 0.574 / 83 book 0.574 / 46 cup 0.539 / 66 dining table 0.512 / 83 book 0.477 / 61 chair 0.461 / 80 sink 0.438 / 46 cup 0.438
+20200530_123740 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.645 / 66 dining table 0.609 / 83 book 0.598 / 61 chair 0.586 / 0 person 0.551 / 46 cup 0.539 / 66 dining table 0.523 / 61 chair 0.512 / 61 chair 0.477 / 83 book 0.461
+20200530_123744 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.586
+20200530_123805 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.699 / 71 tv 0.645 / 61 chair 0.598 / 66 dining table 0.574 / 83 book 0.551 / 46 cup 0.551 / 46 cup 0.523 / 61 chair 0.477 / 83 book 0.449 / 66 dining table 0.449
+20200530_123811 / Sensor HIGH / 441 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.621 / 0 person 0.574 / 46 cup 0.574 / 66 dining table 0.562 / 0 person 0.523 / 72 laptop 0.512 / 66 dining table 0.500 / 72 laptop 0.488 / 46 cup 0.488
+20200530_123815 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.711 / 61 chair 0.645 / 0 person 0.598 / 66 dining table 0.551 / 72 laptop 0.539 / 46 cup 0.512 / 61 chair 0.512 / 66 dining table 0.500 / 0 person 0.500 / 46 cup 0.488
+20200530_123823 / Sensor HIGH / 441 ms / Hektor was not detected... / 71 tv 0.711 / 61 chair 0.621 / 83 book 0.562 / 46 cup 0.539 / 83 book 0.523 / 66 dining table 0.523 / 61 chair 0.488 / 66 dining table 0.477 / 83 book 0.477 / 46 cup 0.477
+20200530_123931 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.645 / 61 chair 0.633 / 0 person 0.609 / 46 cup 0.586 / 83 book 0.551 / 66 dining table 0.523 / 0 person 0.512 / 46 cup 0.500 / 0 person 0.488 / 83 book 0.477
+20200530_123934 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.645 / 83 book 0.551 / 46 cup 0.551 / 66 dining table 0.523 / 0 person 0.500 / 46 cup 0.500 / 83 book 0.488 / 61 chair 0.477 / 46 cup 0.477
+20200530_123939 / Sensor HIGH / 436 ms / Hektor was not detected... / 61 chair 0.633 / 0 person 0.609 / 71 tv 0.598 / 83 book 0.574 / 46 cup 0.562 / 66 dining table 0.539 / 83 book 0.488 / 46 cup 0.488 / 46 cup 0.477 / 83 book 0.477
+20200530_124015 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.539
+20200530_124019 / Sensor HIGH / 439 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.668 / 66 dining table 0.551 / 83 book 0.551 / 46 cup 0.523 / 46 cup 0.500 / 83 book 0.500 / 66 dining table 0.488 / 46 cup 0.477 / 61 chair 0.477
+20200530_124022 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.656 / 83 book 0.551 / 66 dining table 0.539 / 46 cup 0.523 / 46 cup 0.500 / 61 chair 0.477 / 83 book 0.461 / 46 cup 0.461 / 66 dining table 0.461
+20200530_124031 / Sensor HIGH / 442 ms / Hektor was not detected... / 71 tv 0.656 / 61 chair 0.645 / 83 book 0.574 / 66 dining table 0.539 / 46 cup 0.523 / 83 book 0.512 / 46 cup 0.477 / 61 chair 0.477 / 83 book 0.477 / 66 dining table 0.461
+20200530_124035 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.738 / 61 chair 0.633 / 83 book 0.562 / 46 cup 0.539 / 66 dining table 0.539 / 46 cup 0.512 / 83 book 0.500 / 66 dining table 0.477 / 61 chair 0.477 / 83 book 0.461
+20200530_124038 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.645 / 83 book 0.586 / 46 cup 0.539 / 83 book 0.523 / 66 dining table 0.523 / 46 cup 0.488 / 61 chair 0.477 / 83 book 0.477 / 66 dining table 0.477
+20200530_124041 / Sensor HIGH / 444 ms / Hektor was not detected... / 71 tv 0.738 / 61 chair 0.633 / 83 book 0.562 / 66 dining table 0.539 / 46 cup 0.523 / 61 chair 0.488 / 66 dining table 0.477 / 83 book 0.477 / 46 cup 0.461 / 46 cup 0.461
+20200530_124127 / Sensor HIGH / 439 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.598 / 83 book 0.562 / 66 dining table 0.562 / 66 dining table 0.512 / 46 cup 0.500 / 83 book 0.461 / 61 chair 0.461 / 83 book 0.449 / 46 cup 0.449
+20200530_124647 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.699 / 61 chair 0.598 / 66 dining table 0.586 / 83 book 0.574 / 46 cup 0.574 / 66 dining table 0.500 / 46 cup 0.477 / 83 book 0.477 / 61 chair 0.438 / 83 book 0.438
+20200530_124701 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.699 / 61 chair 0.598 / 66 dining table 0.586 / 83 book 0.586 / 46 cup 0.586 / 66 dining table 0.500 / 83 book 0.488 / 46 cup 0.477 / 83 book 0.449 / 61 chair 0.438
+20200530_124716 / Sensor HIGH / 444 ms / Hektor was not detected... / 71 tv 0.711 / 66 dining table 0.586 / 61 chair 0.586 / 83 book 0.586 / 46 cup 0.586 / 66 dining table 0.500 / 83 book 0.488 / 46 cup 0.477 / 83 book 0.461 / 83 book 0.438
+20200530_124757 / Sensor HIGH / 441 ms / Hektor was detected! / 0 person 0.598 / 23 zebra 0.551 / 16 cat 0.477 / 61 chair 0.426 / 80 sink 0.414 / 43 bottle 0.414
+20200530_124807 / Sensor HIGH / 442 ms / Hektor was not detected... / 71 tv 0.680 / 66 dining table 0.609 / 83 book 0.598 / 61 chair 0.598 / 46 cup 0.523 / 46 cup 0.488 / 83 book 0.488 / 66 dining table 0.488 / 83 book 0.461 / 46 cup 0.449
+20200530_124853 / Sensor HIGH / 441 ms / Hektor was not detected... / 71 tv 0.699 / 61 chair 0.609 / 66 dining table 0.586 / 83 book 0.574 / 46 cup 0.574 / 46 cup 0.500 / 66 dining table 0.488 / 83 book 0.477 / 61 chair 0.461 / 83 book 0.438
+20200530_124942 / Sensor HIGH / 443 ms / Hektor was not detected... / 0 person 0.633 / 71 tv 0.633 / 61 chair 0.621 / 46 cup 0.586 / 66 dining table 0.586 / 46 cup 0.539 / 66 dining table 0.512 / 61 chair 0.477 / 0 person 0.461 / 83 book 0.449
+20200530_124958 / Sensor HIGH / 441 ms / Hektor was not detected... / 71 tv 0.738 / 0 person 0.656 / 61 chair 0.621 / 46 cup 0.539 / 66 dining table 0.523 / 0 person 0.500 / 71 tv 0.488 / 66 dining table 0.477 / 46 cup 0.461 / 46 cup 0.438
+20200530_125016 / Sensor HIGH / 782 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.621 / 61 chair 0.586 / 83 book 0.562 / 46 cup 0.562 / 66 dining table 0.523 / 83 book 0.488 / 83 book 0.488 / 66 dining table 0.477 / 83 book 0.477
+20200530_125020 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.633 / 61 chair 0.609 / 83 book 0.574 / 46 cup 0.551 / 66 dining table 0.512 / 83 book 0.488 / 83 book 0.488 / 74 remote 0.477 / 83 book 0.477
+20200530_125023 / Sensor HIGH / 440 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.621 / 61 chair 0.586 / 83 book 0.562 / 46 cup 0.551 / 66 dining table 0.512 / 83 book 0.500 / 83 book 0.477 / 83 book 0.477 / 66 dining table 0.477
+20200530_125041 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.750 / 83 book 0.633 / 61 chair 0.586 / 83 book 0.562 / 46 cup 0.551 / 66 dining table 0.512 / 83 book 0.500 / 66 dining table 0.477 / 83 book 0.477 / 74 remote 0.477
+20200530_125051 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.750 / 83 book 0.633 / 61 chair 0.609 / 83 book 0.562 / 46 cup 0.551 / 66 dining table 0.512 / 83 book 0.477 / 66 dining table 0.477 / 83 book 0.477 / 83 book 0.461
+20200530_125057 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.758 / 61 chair 0.621 / 83 book 0.562 / 66 dining table 0.551 / 46 cup 0.539 / 66 dining table 0.512 / 46 cup 0.461 / 83 book 0.449 / 61 chair 0.449 / 46 cup 0.414
+20200530_125106 / Sensor HIGH / 555 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.633 / 61 chair 0.574 / 83 book 0.574 / 61 chair 0.562 / 46 cup 0.539 / 66 dining table 0.512 / 83 book 0.500 / 66 dining table 0.488 / 83 book 0.488
+20200530_125111 / Sensor HIGH / 439 ms / Hektor was not detected... / 71 tv 0.750 / 0 person 0.699 / 61 chair 0.645 / 83 book 0.551 / 0 person 0.551 / 46 cup 0.551 / 61 chair 0.551 / 66 dining table 0.539 / 46 cup 0.523 / 61 chair 0.500
+20200530_125132 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.750 / 83 book 0.633 / 61 chair 0.621 / 83 book 0.574 / 46 cup 0.551 / 66 dining table 0.523 / 66 dining table 0.512 / 46 cup 0.500 / 83 book 0.488 / 83 book 0.477
+20200530_125149 / Sensor HIGH / 437 ms / Hektor was not detected... / 71 tv 0.738 / 0 person 0.645 / 61 chair 0.598 / 46 cup 0.562 / 0 person 0.523 / 83 book 0.500 / 0 person 0.461 / 83 book 0.438 / 72 laptop 0.426 / 0 person 0.414
+20200530_125156 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.645 / 61 chair 0.609 / 83 book 0.574 / 66 dining table 0.551 / 66 dining table 0.539 / 46 cup 0.512 / 83 book 0.488 / 83 book 0.488 / 83 book 0.477
+20200530_125202 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.633 / 61 chair 0.621 / 83 book 0.574 / 66 dining table 0.551 / 66 dining table 0.551 / 46 cup 0.512 / 46 cup 0.488 / 83 book 0.477 / 83 book 0.477
+20200530_125224 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.738 / 83 book 0.633 / 83 book 0.609 / 61 chair 0.586 / 46 cup 0.512 / 83 book 0.488 / 83 book 0.488 / 66 dining table 0.477 / 83 book 0.477 / 83 book 0.477
+20200530_125418 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.699 / 83 book 0.656 / 61 chair 0.598 / 66 dining table 0.586 / 83 book 0.586 / 46 cup 0.562 / 66 dining table 0.562 / 83 book 0.500 / 83 book 0.488 / 46 cup 0.488
+20200530_125502 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.586 / 0 person 0.586 / 66 dining table 0.574 / 0 person 0.574 / 83 book 0.562 / 46 cup 0.562 / 66 dining table 0.551 / 46 cup 0.512 / 83 book 0.477
+20200530_125511 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.668 / 83 book 0.633 / 61 chair 0.609 / 66 dining table 0.574 / 66 dining table 0.562 / 83 book 0.562 / 46 cup 0.523 / 46 cup 0.461 / 83 book 0.461 / 83 book 0.438
+20200530_125536 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.699 / 83 book 0.645 / 61 chair 0.621 / 66 dining table 0.586 / 83 book 0.562 / 66 dining table 0.562 / 50 bowl 0.488 / 61 chair 0.488 / 46 cup 0.477 / 46 cup 0.461
+20200530_125620 / Sensor HIGH / 445 ms / Hektor was not detected... / 71 tv 0.633 / 0 person 0.621 / 61 chair 0.586 / 66 dining table 0.574 / 66 dining table 0.523 / 46 cup 0.512 / 46 cup 0.500 / 0 person 0.477 / 61 chair 0.461 / 46 cup 0.461
+20200530_125623 / Sensor HIGH / 438 ms / Hektor was not detected... / 0 person 0.656 / 61 chair 0.586 / 83 book 0.586 / 66 dining table 0.574 / 83 book 0.523 / 66 dining table 0.477 / 50 bowl 0.414 / 43 bottle 0.414 / 50 bowl 0.414 / 50 bowl 0.402
+20200530_125626 / Sensor HIGH / 699 ms / Hektor was not detected... / 61 chair 0.645 / 0 person 0.633 / 83 book 0.609 / 71 tv 0.586 / 66 dining table 0.574 / 83 book 0.562 / 50 bowl 0.562 / 66 dining table 0.477 / 50 bowl 0.449 / 46 cup 0.449
+20200530_125718 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.668 / 61 chair 0.668 / 71 tv 0.645 / 83 book 0.523 / 83 book 0.512 / 66 dining table 0.488 / 46 cup 0.438 / 0 person 0.438 / 50 bowl 0.426 / 83 book 0.402
+20200530_125741 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.645 / 71 tv 0.512 / 0 person 0.512 / 71 tv 0.500 / 32 suitcase 0.449 / 66 dining table 0.426 / 46 cup 0.402
+20200530_125744 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.680 / 71 tv 0.609 / 83 book 0.551 / 83 book 0.523 / 66 dining table 0.477 / 46 cup 0.461 / 71 tv 0.449 / 83 book 0.438 / 83 book 0.414 / 46 cup 0.402
+20200530_130930 / Sensor HIGH / 436 ms / Hektor was detected! / 0 person 0.633 / 16 cat 0.523 / 61 chair 0.477 / 43 bottle 0.402
+20200530_130953 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.645 / 61 chair 0.523 / 43 bottle 0.402
+20200530_131540 / Sensor HIGH / 437 ms / Hektor was not detected... / 0 person 0.645 / 61 chair 0.449 / 43 bottle 0.426 / 61 chair 0.414
+20200530_131609 / Sensor HIGH / 800 ms / Hektor was not detected... / 0 person 0.645 / 61 chair 0.461 / 62 couch 0.461 / 61 chair 0.449 / 43 bottle 0.402
+20200530_131615 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.645 / 61 chair 0.477 / 62 couch 0.414 / 43 bottle 0.414 / 61 chair 0.402
+20200530_131703 / Sensor HIGH / 706 ms / Hektor was not detected... / 0 person 0.668 / 61 chair 0.488 / 71 tv 0.402
+20200530_131747 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.656 / 71 tv 0.539 / 61 chair 0.512
+20200530_131955 / Sensor HIGH / 441 ms / Hektor was not detected... / 61 chair 0.645 / 71 tv 0.645 / 66 dining table 0.488 / 0 person 0.477 / 50 bowl 0.477 / 50 bowl 0.438 / 83 book 0.426 / 50 bowl 0.414
+20200530_132110 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.688 / 61 chair 0.656 / 50 bowl 0.500 / 71 tv 0.477 / 46 cup 0.461 / 77 microwave 0.449 / 66 dining table 0.449 / 0 person 0.438 / 0 person 0.438 / 71 tv 0.426
+20200530_132115 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.668 / 61 chair 0.668 / 50 bowl 0.500 / 66 dining table 0.461 / 77 microwave 0.449 / 46 cup 0.438 / 50 bowl 0.414 / 83 book 0.402 / 50 bowl 0.402 / 50 bowl 0.402
+20200530_132408 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.645 / 0 person 0.586 / 71 tv 0.574 / 50 bowl 0.512 / 0 person 0.488 / 77 microwave 0.488 / 66 dining table 0.461 / 46 cup 0.449 / 50 bowl 0.438 / 0 person 0.426
+20200530_132700 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.699 / 61 chair 0.656 / 0 person 0.477 / 0 person 0.477
+20200530_132708 / Sensor HIGH / 495 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.656 / 66 dining table 0.523 / 50 bowl 0.461 / 46 cup 0.426 / 83 book 0.402
+20200530_132837 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.621 / 71 tv 0.621 / 0 person 0.512
+20200530_132840 / Sensor HIGH / 438 ms / Hektor was not detected... / 61 chair 0.668 / 71 tv 0.656 / 66 dining table 0.551 / 83 book 0.461 / 50 bowl 0.461 / 83 book 0.449
+20200530_132858 / Sensor HIGH / 436 ms / Hektor was not detected... / 71 tv 0.730 / 61 chair 0.680 / 0 person 0.574 / 61 chair 0.500
+20200530_132909 / Sensor HIGH / 804 ms / Hektor was not detected... / 71 tv 0.711 / 61 chair 0.680 / 61 chair 0.449 / 66 dining table 0.449 / 66 dining table 0.414 / 83 book 0.414 / 80 sink 0.402
+20200530_133812 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.688 / 71 tv 0.645 / 62 couch 0.512 / 62 couch 0.488 / 83 book 0.449 / 61 chair 0.426 / 83 book 0.414 / 83 book 0.402 / 83 book 0.402
+20200530_135610 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.699 / 71 tv 0.680 / 72 laptop 0.633 / 61 chair 0.562 / 66 dining table 0.438 / 83 book 0.438 / 83 book 0.426 / 43 bottle 0.426 / 66 dining table 0.414 / 83 book 0.402
+20200530_135802 / Sensor HIGH / 728 ms / Hektor was not detected... / 71 tv 0.758 / 61 chair 0.730 / 0 person 0.621 / 72 laptop 0.609 / 46 cup 0.562 / 83 book 0.512 / 61 chair 0.500 / 61 chair 0.438 / 83 book 0.438 / 83 book 0.426
+20200530_135815 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.699 / 71 tv 0.609 / 72 laptop 0.598 / 46 cup 0.539 / 61 chair 0.488 / 83 book 0.461 / 83 book 0.414 / 83 book 0.414 / 66 dining table 0.414 / 66 dining table 0.414
+20200530_135833 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.793 / 0 person 0.730 / 61 chair 0.699 / 46 cup 0.551 / 61 chair 0.551 / 0 person 0.449 / 61 chair 0.426 / 0 person 0.414 / 71 tv 0.414 / 0 person 0.402
+20200530_135853 / Sensor HIGH / 691 ms / Hektor was not detected... / 71 tv 0.621 / 0 person 0.586 / 61 chair 0.523 / 66 dining table 0.488 / 46 cup 0.477 / 61 chair 0.414 / 83 book 0.414 / 46 cup 0.402
+20200530_135908 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.680 / 71 tv 0.645 / 61 chair 0.609 / 71 tv 0.551 / 83 book 0.523 / 46 cup 0.500 / 46 cup 0.488 / 43 bottle 0.488 / 62 couch 0.477 / 83 book 0.449
+20200530_135911 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.730 / 71 tv 0.699 / 61 chair 0.621 / 83 book 0.523 / 46 cup 0.488 / 62 couch 0.477 / 43 bottle 0.449 / 83 book 0.449 / 46 cup 0.449 / 83 book 0.438
+20200530_142315 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.609 / 43 bottle 0.598 / 72 laptop 0.586 / 61 chair 0.523 / 62 couch 0.477 / 43 bottle 0.438
+20200530_142329 / Sensor HIGH / 752 ms / Hektor was not detected... / 71 tv 0.668 / 61 chair 0.609 / 83 book 0.574 / 46 cup 0.500 / 46 cup 0.500 / 83 book 0.461 / 46 cup 0.461 / 62 couch 0.461 / 62 couch 0.426 / 0 person 0.426
+20200530_142543 / Sensor HIGH / 438 ms / Hektor was not detected... / 71 tv 0.719 / 61 chair 0.645 / 83 book 0.586 / 46 cup 0.523 / 71 tv 0.488 / 66 dining table 0.488 / 62 couch 0.477 / 46 cup 0.461 / 83 book 0.461 / 46 cup 0.449
+20200530_142547 / Sensor HIGH / 708 ms / Hektor was not detected... / 61 chair 0.688 / 71 tv 0.688 / 71 tv 0.562 / 83 book 0.562 / 46 cup 0.488 / 46 cup 0.477 / 61 chair 0.461 / 66 dining table 0.461 / 46 cup 0.438 / 62 couch 0.426
+20200530_142725 / Sensor HIGH / 447 ms / Hektor was not detected... / 71 tv 0.719 / 61 chair 0.680 / 83 book 0.512 / 66 dining table 0.477 / 46 cup 0.461 / 62 couch 0.449 / 61 chair 0.438 / 46 cup 0.438 / 46 cup 0.438 / 61 chair 0.402
+20200530_142847 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.750 / 61 chair 0.680 / 71 tv 0.680 / 46 cup 0.562 / 80 sink 0.523 / 66 dining table 0.488 / 46 cup 0.449 / 61 chair 0.438 / 43 bottle 0.426 / 66 dining table 0.426
+20200530_143025 / Sensor HIGH / 451 ms / Hektor was not detected... / 0 person 0.633 / 61 chair 0.438
+20200530_143112 / Sensor HIGH / 443 ms / Hektor was not detected... / 61 chair 0.699 / 71 tv 0.680 / 71 tv 0.656 / 75 keyboard 0.461 / 75 keyboard 0.438 / 77 microwave 0.414 / 46 cup 0.414 / 61 chair 0.414 / 80 sink 0.414 / 61 chair 0.402
+20200530_143201 / Sensor HIGH / 443 ms / Hektor was not detected... / 0 person 0.668 / 43 bottle 0.438
+20200530_143218 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.668 / 43 bottle 0.414
+20200530_143300 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.699 / 43 bottle 0.414 / 80 sink 0.402
+20200530_143304 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.680 / 80 sink 0.402 / 43 bottle 0.402
+20200530_143324 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.688 / 43 bottle 0.402 / 80 sink 0.402
+20200530_143345 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.688 / 43 bottle 0.461 / 80 sink 0.414 / 43 bottle 0.402
+20200530_143410 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.656 / 43 bottle 0.449 / 80 sink 0.426
+20200530_143522 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.668 / 43 bottle 0.402
+20200530_143757 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.680 / 64 bed 0.477 / 61 chair 0.414 / 80 sink 0.414 / 43 bottle 0.402
+20200530_143800 / Sensor HIGH / 440 ms / Hektor was not detected... / 0 person 0.688 / 64 bed 0.488 / 61 chair 0.426 / 80 sink 0.426
+20200530_143806 / Sensor HIGH / 445 ms / Hektor was not detected... / 0 person 0.711 / 64 bed 0.449 / 61 chair 0.438 / 80 sink 0.414 / 43 bottle 0.402
+20200530_143826 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.668 / 43 bottle 0.449 / 80 sink 0.438
+20200530_143930 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.680 / 0 person 0.539
+20200530_143933 / Sensor HIGH / 444 ms / Hektor was not detected... / 0 person 0.688 / 0 person 0.539 / 74 remote 0.477 / 74 remote 0.477 / 61 chair 0.402
+20200530_144015 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.680
+20200530_144021 / Sensor HIGH / 812 ms / Hektor was not detected... / 0 person 0.688 / 80 sink 0.426 / 61 chair 0.402
+20200530_145145 / Sensor HIGH / 704 ms / Hektor was not detected... / 72 laptop 0.699 / 71 tv 0.645 / 61 chair 0.633 / 0 person 0.609 / 75 keyboard 0.539 / 0 person 0.539 / 83 book 0.414 / 46 cup 0.402
+20200530_145200 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.609 / 61 chair 0.488 / 61 chair 0.414
+20200530_145205 / Sensor HIGH / 441 ms / Hektor was not detected... / 0 person 0.633 / 71 tv 0.551 / 61 chair 0.488
+20200530_145256 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.645 / 71 tv 0.551 / 61 chair 0.438
+20200530_145451 / Sensor HIGH / 435 ms / Hektor was not detected... / 0 person 0.645
+20200530_145547 / Sensor HIGH / 435 ms / Hektor was not detected... / 71 tv 0.680 / 0 person 0.621 / 61 chair 0.586 / 71 tv 0.438
+20200530_145555 / Sensor HIGH / 436 ms / Hektor was not detected... / 61 chair 0.699 / 72 laptop 0.668 / 71 tv 0.645 / 75 keyboard 0.586 / 75 keyboard 0.477 / 83 book 0.426 / 61 chair 0.426 / 72 laptop 0.414 / 61 chair 0.402
+20200530_145629 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.699 / 72 laptop 0.688 / 71 tv 0.645 / 0 person 0.621 / 75 keyboard 0.523 / 75 keyboard 0.523 / 0 person 0.449 / 61 chair 0.426 / 43 bottle 0.414
+20200530_145637 / Sensor HIGH / 436 ms / Hektor was not detected... / 61 chair 0.699 / 72 laptop 0.668 / 71 tv 0.668 / 75 keyboard 0.488 / 75 keyboard 0.477 / 75 keyboard 0.477 / 0 person 0.461 / 83 book 0.426 / 83 book 0.402 / 61 chair 0.402
+20200530_145641 / Sensor HIGH / 865 ms / Hektor was not detected... / 71 tv 0.680 / 61 chair 0.656 / 72 laptop 0.621 / 0 person 0.551 / 75 keyboard 0.438 / 75 keyboard 0.438
+20200530_145644 / Sensor HIGH / 436 ms / Hektor was not detected... / 61 chair 0.668 / 71 tv 0.633 / 0 person 0.586 / 61 chair 0.539 / 0 person 0.477 / 83 book 0.414 / 43 bottle 0.402
+20200530_145647 / Sensor HIGH / 833 ms / Hektor was not detected... / 61 chair 0.699 / 72 laptop 0.680 / 61 chair 0.598 / 62 couch 0.551 / 71 tv 0.512 / 83 book 0.477 / 0 person 0.461 / 0 person 0.438 / 0 person 0.414 / 75 keyboard 0.414
+20200530_145651 / Sensor HIGH / 435 ms / Hektor was not detected... / 61 chair 0.699 / 72 laptop 0.645 / 0 person 0.645 / 61 chair 0.621 / 71 tv 0.621 / 0 person 0.523 / 72 laptop 0.426 / 0 person 0.426 / 83 book 0.414 / 75 keyboard 0.414
+20200530_145657 / Sensor HIGH / 444 ms / Hektor was not detected... / 61 chair 0.680 / 71 tv 0.656 / 72 laptop 0.586 / 61 chair 0.438 / 75 keyboard 0.402 / 61 chair 0.402 / 76 cell phone 0.402 / 75 keyboard 0.402 / 46 cup 0.402
+20200530_145701 / Sensor HIGH / 444 ms / Hektor was not detected... / 61 chair 0.633 / 72 laptop 0.609 / 0 person 0.523 / 61 chair 0.512 / 0 person 0.488 / 0 person 0.488 / 72 laptop 0.461 / 0 person 0.449 / 0 person 0.449 / 61 chair 0.449
+20200530_145704 / Sensor HIGH / 447 ms / Hektor was not detected... / 0 person 0.633 / 0 person 0.551 / 0 person 0.523 / 61 chair 0.488 / 61 chair 0.461 / 0 person 0.426 / 77 microwave 0.426 / 72 laptop 0.402
+20200530_145711 / Sensor HIGH / 438 ms / Hektor was not detected... / 61 chair 0.656 / 72 laptop 0.633 / 71 tv 0.598 / 46 cup 0.449 / 61 chair 0.438 / 71 tv 0.414 / 83 book 0.402
+20200530_145714 / Sensor HIGH / 439 ms / Hektor was not detected... / 61 chair 0.688 / 72 laptop 0.633 / 71 tv 0.586 / 46 cup 0.449 / 73 mouse 0.426 / 0 person 0.414
+20200530_145719 / Sensor HIGH / 446 ms / Hektor was not detected... / 61 chair 0.668 / 72 laptop 0.645 / 71 tv 0.586 / 0 person 0.574 / 46 cup 0.461 / 61 chair 0.461 / 61 chair 0.461 / 75 keyboard 0.449 / 75 keyboard 0.426 / 0 person 0.426
+20200530_145736 / Sensor HIGH / 441 ms / Hektor was not detected... / 72 laptop 0.719 / 0 person 0.711 / 61 chair 0.656 / 71 tv 0.645 / 61 chair 0.586 / 0 person 0.488 / 46 cup 0.449 / 61 chair 0.449 / 0 person 0.438
+20200530_145816 / Sensor HIGH / 442 ms / Hektor was not detected... / 61 chair 0.680 / 72 laptop 0.621 / 71 tv 0.574 / 83 book 0.438 / 63 potted plant 0.414 / 75 keyboard 0.414 / 61 chair 0.414 / 73 mouse 0.414
+20200530_145824 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.699 / 61 chair 0.645 / 72 laptop 0.621 / 71 tv 0.523 / 0 person 0.512 / 61 chair 0.438 / 73 mouse 0.414 / 75 keyboard 0.402 / 71 tv 0.402
+20200530_145832 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.621
+20200530_145841 / Sensor HIGH / 442 ms / Hektor was not detected... / 61 chair 0.645 / 72 laptop 0.609 / 71 tv 0.539 / 61 chair 0.426 / 61 chair 0.414 / 75 keyboard 0.402
+20200530_160148 / Sensor HIGH / 442 ms / Hektor was not detected... / 61 chair 0.645 / 72 laptop 0.621 / 71 tv 0.598 / 83 book 0.461 / 77 microwave 0.461 / 61 chair 0.449 / 72 laptop 0.426 / 73 mouse 0.426 / 83 book 0.402 / 61 chair 0.402
+20200530_160203 / Sensor HIGH / 442 ms / Hektor was not detected... / 0 person 0.633
+20200530_160216 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.766 / 0 person 0.750 / 0 person 0.656 / 61 chair 0.656 / 61 chair 0.426 / 0 person 0.414 / 83 book 0.402
+20200530_160227 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.719 / 61 chair 0.633 / 0 person 0.609 / 61 chair 0.477 / 83 book 0.477 / 77 microwave 0.449
+20200530_160239 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.645 / 61 chair 0.609 / 71 tv 0.574 / 0 person 0.574 / 61 chair 0.426
+20200530_160244 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.656 / 61 chair 0.598 / 71 tv 0.586 / 83 book 0.461 / 61 chair 0.438 / 77 microwave 0.426
+20200530_160254 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.633 / 61 chair 0.609 / 71 tv 0.574 / 83 book 0.461 / 61 chair 0.449 / 43 bottle 0.402
+20200530_160257 / Sensor HIGH / 437 ms / Hektor was not detected... / 71 tv 0.645 / 72 laptop 0.633 / 61 chair 0.621 / 83 book 0.477 / 61 chair 0.449 / 77 microwave 0.414 / 83 book 0.402
+20200530_160300 / Sensor HIGH / 665 ms / Hektor was not detected... / 72 laptop 0.688 / 61 chair 0.598 / 0 person 0.488 / 61 chair 0.477 / 0 person 0.449 / 72 laptop 0.414 / 83 book 0.414 / 83 book 0.414
+20200530_160309 / Sensor HIGH / 827 ms / Hektor was not detected... / 0 person 0.688 / 72 laptop 0.539 / 69 toilet 0.477 / 61 chair 0.438 / 61 chair 0.414
+20200530_160313 / Sensor HIGH / 438 ms / Hektor was not detected... / 72 laptop 0.758 / 0 person 0.730 / 61 chair 0.586 / 71 tv 0.586 / 0 person 0.488 / 61 chair 0.449
+20200530_160318 / Sensor HIGH / 500 ms / Hektor was not detected... / 72 laptop 0.656 / 61 chair 0.586 / 71 tv 0.562 / 61 chair 0.438 / 72 laptop 0.426 / 77 microwave 0.426
+20200530_160338 / Sensor HIGH / 438 ms / Hektor was not detected... / 72 laptop 0.656 / 61 chair 0.633 / 0 person 0.562 / 71 tv 0.562 / 61 chair 0.512 / 0 person 0.488 / 0 person 0.438 / 72 laptop 0.438 / 61 chair 0.402
+20200530_160342 / Sensor HIGH / 438 ms / Hektor was not detected... / 72 laptop 0.656 / 61 chair 0.645 / 71 tv 0.586 / 72 laptop 0.461 / 61 chair 0.461 / 77 microwave 0.414 / 83 book 0.402
+20200530_160346 / Sensor HIGH / 589 ms / Hektor was not detected... / 61 chair 0.645 / 72 laptop 0.633 / 71 tv 0.574 / 61 chair 0.449 / 77 microwave 0.426 / 72 laptop 0.426
+20200530_160428 / Sensor HIGH / 644 ms / Hektor was not detected... / 0 person 0.551 / 61 chair 0.449 / 83 book 0.402 / 71 tv 0.402
+20200530_160433 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.656 / 61 chair 0.633 / 61 chair 0.512 / 71 tv 0.488 / 83 book 0.438 / 72 laptop 0.414 / 77 microwave 0.402
+20200530_160441 / Sensor HIGH / 444 ms / Hektor was not detected... / 72 laptop 0.711 / 61 chair 0.645 / 0 person 0.574 / 71 tv 0.523 / 61 chair 0.477 / 0 person 0.461 / 83 book 0.426 / 0 person 0.414 / 72 laptop 0.402
+20200530_160525 / Sensor HIGH / 436 ms / Hektor was not detected... / 72 laptop 0.680 / 61 chair 0.633 / 71 tv 0.488 / 62 couch 0.461 / 61 chair 0.461
+20200530_160712 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.680 / 61 chair 0.645 / 61 chair 0.523 / 83 book 0.461 / 71 tv 0.449 / 83 book 0.426 / 72 laptop 0.414
+20200530_160720 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.711 / 61 chair 0.645 / 71 tv 0.539 / 61 chair 0.500 / 83 book 0.461 / 83 book 0.449 / 72 laptop 0.449 / 83 book 0.438 / 71 tv 0.402
+20200530_160726 / Sensor HIGH / 444 ms / Hektor was not detected... / 72 laptop 0.699 / 61 chair 0.656 / 71 tv 0.551 / 61 chair 0.512 / 83 book 0.461 / 72 laptop 0.438 / 83 book 0.438 / 83 book 0.426 / 83 book 0.402
+20200530_160730 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.688 / 61 chair 0.645 / 71 tv 0.512 / 61 chair 0.512 / 83 book 0.461 / 83 book 0.426 / 72 laptop 0.414 / 83 book 0.402
+20200530_160803 / Sensor HIGH / 438 ms / Hektor was not detected... / 72 laptop 0.688 / 61 chair 0.645 / 0 person 0.562 / 71 tv 0.539 / 61 chair 0.512 / 0 person 0.449 / 72 laptop 0.449 / 83 book 0.414
+20200530_160818 / Sensor HIGH / 438 ms / Hektor was not detected... / 61 chair 0.645 / 72 laptop 0.633 / 71 tv 0.562 / 61 chair 0.477 / 83 book 0.477 / 71 tv 0.402
+20200530_160826 / Sensor HIGH / 448 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.680 / 72 laptop 0.500 / 71 tv 0.500 / 61 chair 0.477 / 43 bottle 0.414 / 80 sink 0.402
+20200530_160830 / Sensor HIGH / 439 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.688 / 71 tv 0.523 / 72 laptop 0.512 / 61 chair 0.461 / 80 sink 0.402 / 43 bottle 0.402
+20200530_160835 / Sensor HIGH / 439 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.699 / 72 laptop 0.523 / 71 tv 0.523
+20200530_160840 / Sensor HIGH / 716 ms / Hektor was not detected... / 0 person 0.461
+20200530_160843 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.688 / 0 person 0.633 / 72 laptop 0.574
+20200530_160852 / Sensor HIGH / 609 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.688 / 0 person 0.586 / 72 laptop 0.586 / 71 tv 0.426
+20200530_160909 / Sensor HIGH / 683 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.668 / 72 laptop 0.633 / 0 person 0.598 / 0 person 0.477 / 61 chair 0.426
+20200530_160916 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.758 / 61 chair 0.680 / 71 tv 0.551 / 72 laptop 0.539 / 46 cup 0.402
+20200530_161401 / Sensor HIGH / 436 ms / Hektor was not detected... / 83 book 0.586 / 61 chair 0.523 / 83 book 0.488 / 83 book 0.461
+20200530_161410 / Sensor HIGH / 843 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.699 / 71 tv 0.539 / 72 laptop 0.512
+20200530_161421 / Sensor HIGH / 770 ms / Hektor was not detected... / 72 laptop 0.758 / 61 chair 0.688 / 72 laptop 0.574 / 71 tv 0.500 / 46 cup 0.402
+20200530_161609 / Sensor HIGH / 718 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.699 / 0 person 0.656 / 61 chair 0.586 / 71 tv 0.523
+20200530_161633 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.758 / 61 chair 0.680 / 72 laptop 0.488 / 71 tv 0.488 / 46 cup 0.426 / 43 bottle 0.414
+20200530_161822 / Sensor HIGH / 447 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.680 / 71 tv 0.551 / 72 laptop 0.461 / 46 cup 0.438
+20200530_162146 / Sensor HIGH / 719 ms / Hektor was not detected... / 72 laptop 0.730 / 61 chair 0.688 / 71 tv 0.551 / 72 laptop 0.449 / 46 cup 0.438 / 83 book 0.438 / 83 book 0.414 / 83 book 0.402
+20200530_162355 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.680 / 0 person 0.609 / 71 tv 0.562 / 72 laptop 0.461 / 83 book 0.449 / 46 cup 0.426 / 83 book 0.402
+20200530_162358 / Sensor HIGH / 447 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.680 / 71 tv 0.488 / 72 laptop 0.477 / 46 cup 0.438 / 83 book 0.402
+20200530_162429 / Sensor HIGH / 746 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.688 / 71 tv 0.488 / 72 laptop 0.477 / 83 book 0.449 / 83 book 0.438 / 46 cup 0.426 / 83 book 0.402
+20200530_162435 / Sensor HIGH / 517 ms / Hektor was not detected... / 72 laptop 0.730 / 61 chair 0.680 / 71 tv 0.512 / 72 laptop 0.477 / 83 book 0.438 / 83 book 0.426 / 46 cup 0.426
+20200530_162439 / Sensor HIGH / 510 ms / Hektor was not detected... / 72 laptop 0.738 / 61 chair 0.688 / 71 tv 0.523 / 72 laptop 0.477 / 46 cup 0.438 / 83 book 0.426 / 83 book 0.414
+20200530_162501 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.688 / 71 tv 0.523 / 46 cup 0.438 / 72 laptop 0.438 / 83 book 0.414 / 61 chair 0.414 / 43 bottle 0.414 / 83 book 0.402 / 83 book 0.402
+20200530_162721 / Sensor HIGH / 442 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.688 / 71 tv 0.551 / 83 book 0.461 / 83 book 0.438 / 83 book 0.426 / 61 chair 0.426 / 46 cup 0.426 / 72 laptop 0.414 / 61 chair 0.414
+20200530_163226 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.699 / 0 person 0.551 / 0 person 0.488 / 83 book 0.461 / 46 cup 0.461 / 61 chair 0.461 / 71 tv 0.461 / 46 cup 0.414 / 83 book 0.402
+20200530_163235 / Sensor HIGH / 599 ms / Hektor was not detected... / 72 laptop 0.699 / 71 tv 0.562 / 61 chair 0.500 / 46 cup 0.414 / 61 chair 0.402 / 72 laptop 0.402
+20200530_163242 / Sensor HIGH / 721 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.711 / 83 book 0.523 / 71 tv 0.500 / 43 bottle 0.461 / 83 book 0.426 / 43 bottle 0.426 / 72 laptop 0.414 / 0 person 0.402 / 83 book 0.402
+20200530_163254 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.750 / 61 chair 0.719 / 71 tv 0.539 / 83 book 0.523 / 43 bottle 0.449 / 83 book 0.414 / 43 bottle 0.402 / 83 book 0.402
+20200530_163257 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.730 / 61 chair 0.699 / 0 person 0.688 / 61 chair 0.539 / 83 book 0.512 / 72 laptop 0.477 / 43 bottle 0.449 / 72 laptop 0.438 / 66 dining table 0.426 / 83 book 0.414
+20200530_163541 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.688 / 83 book 0.488 / 72 laptop 0.477 / 71 tv 0.438 / 43 bottle 0.438 / 72 laptop 0.414 / 43 bottle 0.402
+20200530_163644 / Sensor HIGH / 865 ms / Hektor was not detected... / 72 laptop 0.730 / 61 chair 0.688 / 71 tv 0.551 / 83 book 0.500 / 43 bottle 0.449 / 72 laptop 0.414 / 83 book 0.402 / 43 bottle 0.402 / 83 book 0.402
+20200530_163651 / Sensor HIGH / 444 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.609 / 71 tv 0.551 / 0 person 0.488 / 0 person 0.438 / 66 dining table 0.426 / 75 keyboard 0.414 / 61 chair 0.414 / 72 laptop 0.402 / 46 cup 0.402
+20200530_163700 / Sensor HIGH / 441 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.711 / 71 tv 0.562 / 83 book 0.539 / 0 person 0.512 / 83 book 0.438 / 83 book 0.426 / 75 keyboard 0.414 / 43 bottle 0.402 / 46 cup 0.402
+20200530_163704 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.758 / 61 chair 0.750 / 71 tv 0.551 / 83 book 0.523 / 43 bottle 0.461 / 66 dining table 0.438 / 43 bottle 0.426 / 75 keyboard 0.414 / 83 book 0.414 / 83 book 0.402
+20200530_163707 / Sensor HIGH / 435 ms / Hektor was not detected... / 72 laptop 0.766 / 61 chair 0.711 / 83 book 0.512 / 71 tv 0.512 / 66 dining table 0.414 / 43 bottle 0.414 / 61 chair 0.402 / 83 book 0.402
+20200530_163211: System started.

@@ -1007,3 +1007,417 @@
 20200512_125710 / Sensor LOW
 20200512_125809 / Sensor HIGH / 697 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.426
 20200512_125811 / Sensor LOW
+20200512_125841 / Sensor HIGH / 450 ms / Hektor was not detected... / 84 clock 0.688 / 64 bed 0.512
+20200512_125842 / Sensor LOW
+20200512_125909 / Sensor HIGH / 897 ms / Hektor was not detected... / 84 clock 0.688 / 64 bed 0.512
+20200512_125911 / Sensor LOW
+20200512_130009 / Sensor HIGH / 898 ms / Hektor was not detected... / 84 clock 0.680 / 64 bed 0.488
+20200512_130011 / Sensor LOW
+20200512_130109 / Sensor HIGH / 446 ms / Hektor was not detected... / 84 clock 0.680 / 64 bed 0.500
+20200512_130110 / Sensor LOW
+20200512_130209 / Sensor HIGH / 445 ms / Hektor was not detected... / 84 clock 0.668 / 64 bed 0.477
+20200512_130210 / Sensor LOW
+20200512_130309 / Sensor HIGH / 446 ms / Hektor was not detected... / 84 clock 0.656 / 64 bed 0.461
+20200512_130310 / Sensor LOW
+20200512_130409 / Sensor HIGH / 445 ms / Hektor was not detected... / 84 clock 0.656 / 64 bed 0.438
+20200512_130410 / Sensor LOW
+20200512_130509 / Sensor HIGH / 435 ms / Hektor was not detected... / 84 clock 0.668 / 64 bed 0.414
+20200512_130510 / Sensor LOW
+20200512_130609 / Sensor HIGH / 436 ms / Hektor was not detected... / 84 clock 0.668 / 64 bed 0.426
+20200512_130610 / Sensor LOW
+20200512_130709 / Sensor HIGH / 441 ms / Hektor was not detected... / 84 clock 0.688
+20200512_130710 / Sensor LOW
+20200512_130809 / Sensor HIGH / 444 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.414
+20200512_130810 / Sensor LOW
+20200512_130909 / Sensor HIGH / 866 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.426
+20200512_130911 / Sensor LOW
+20200512_131009 / Sensor HIGH / 759 ms / Hektor was not detected... / 84 clock 0.688 / 64 bed 0.426
+20200512_131011 / Sensor LOW
+20200512_131109 / Sensor HIGH / 437 ms / Hektor was not detected... / 84 clock 0.688 / 64 bed 0.488
+20200512_131110 / Sensor LOW
+20200512_131209 / Sensor HIGH / 866 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.414
+20200512_131211 / Sensor LOW
+20200512_131320: System started.
+20200512_131444 / Sensor HIGH / 879 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.461
+20200512_131446 / Sensor LOW
+20200512_131508 / Sensor HIGH / 900 ms / Hektor was not detected... / 84 clock 0.711 / 64 bed 0.523
+20200512_131510 / Sensor LOW
+20200512_131514 / Sensor HIGH / 780 ms / Hektor was not detected... / 84 clock 0.711 / 64 bed 0.523
+20200512_131516 / Sensor LOW
+20200512_131519 / Sensor HIGH / 731 ms / Hektor was not detected... / 84 clock 0.711 / 64 bed 0.512
+20200512_131520 / Sensor LOW
+20200512_131544 / Sensor HIGH / 766 ms / Hektor was not detected... / 84 clock 0.699 / 64 bed 0.512
+20200512_131546 / Sensor LOW
+20200512_131618: System started.
+20200512_131644 / Sensor HIGH / 806 ms / Hektor was not detected... / 84 clock 0.668 / 64 bed 0.512
+20200512_131646 / Sensor LOW
+20200512_131727: System started.
+20200512_132032 / Sensor HIGH / 447 ms / Hektor was not detected... / 62 couch 0.633 / 80 sink 0.621
+20200512_132034 / Sensor LOW
+20200512_132132 / Sensor HIGH / 444 ms / Hektor was not detected... / 62 couch 0.645 / 80 sink 0.609
+20200512_132134 / Sensor LOW
+20200512_132149 / Sensor HIGH / 939 ms / Hektor was not detected... / 62 couch 0.645 / 80 sink 0.621
+20200512_132151 / Sensor MEDIUM
+20200512_132152 / Sensor HIGH / 871 ms / Hektor was not detected... / 62 couch 0.645 / 80 sink 0.621
+20200512_132154 / Sensor LOW
+20200512_132232 / Sensor HIGH / 440 ms / Hektor was not detected... / 62 couch 0.645 / 80 sink 0.633
+20200512_132234 / Sensor LOW
+20200512_132300 / Sensor HIGH / 440 ms / Hektor was not detected... / 64 bed 0.609 / 64 bed 0.477 / 64 bed 0.426
+20200512_132302 / Sensor LOW
+20200512_132304 / Sensor HIGH / 446 ms / Hektor was not detected... / 62 couch 0.645 / 61 chair 0.609 / 61 chair 0.523 / 64 bed 0.461 / 61 chair 0.449 / 50 bowl 0.438
+20200512_132305 / Sensor LOW
+20200512_132307 / Sensor HIGH / 440 ms / Hektor was not detected... / 62 couch 0.633 / 61 chair 0.609 / 61 chair 0.449 / 50 bowl 0.426 / 64 bed 0.414
+20200512_132308 / Sensor LOW
+20200512_132328 / Sensor HIGH / 440 ms / Hektor was not detected... / 62 couch 0.609 / 50 bowl 0.539 / 0 person 0.449
+20200512_132329 / Sensor MEDIUM
+20200512_132330 / Sensor HIGH / 650 ms / Hektor was not detected... / 64 bed 0.586 / 0 person 0.539 / 50 bowl 0.500 / 0 person 0.449 / 64 bed 0.449
+20200512_132332 / Sensor MEDIUM
+20200512_132335 / Sensor HIGH / 440 ms / Hektor was not detected... / 64 bed 0.574 / 80 sink 0.562 / 64 bed 0.488 / 64 bed 0.426
+20200512_132336 / Sensor MEDIUM
+20200512_132432 / Sensor HIGH / 453 ms / Hektor was not detected... / 64 bed 0.551 / 64 bed 0.512 / 80 sink 0.500 / 64 bed 0.477
+20200512_132434 / Sensor LOW
+20200512_132523 / Sensor HIGH / 439 ms / Hektor was not detected... / 61 chair 0.598 / 0 person 0.574 / 64 bed 0.539 / 61 chair 0.523 / 50 bowl 0.477 / 64 bed 0.426 / 64 bed 0.426 / 61 chair 0.414
+20200512_132524 / Sensor MEDIUM
+20200512_132525 / Sensor HIGH / 439 ms / Hektor was not detected... / 64 bed 0.586 / 0 person 0.539 / 61 chair 0.449 / 64 bed 0.414 / 64 bed 0.402 / 80 sink 0.402
+20200512_132527 / Sensor LOW
+20200512_132528 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.586 / 64 bed 0.574 / 80 sink 0.461 / 64 bed 0.438
+20200512_132530 / Sensor LOW
+20200512_132532 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.586 / 64 bed 0.574 / 80 sink 0.477 / 64 bed 0.438
+20200512_132534 / Sensor LOW
+20200512_132538 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 80 sink 0.461
+20200512_132540 / Sensor LOW
+20200512_132545 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.523 / 64 bed 0.500 / 80 sink 0.449
+20200512_132547 / Sensor LOW
+20200512_132551 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 80 sink 0.426
+20200512_132552 / Sensor MEDIUM
+20200512_132601 / Sensor HIGH / 453 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.426
+20200512_132603 / Sensor LOW
+20200512_132632 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 80 sink 0.414 / 62 couch 0.414
+20200512_132634 / Sensor LOW
+20200512_132732 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 62 couch 0.426
+20200512_132733 / Sensor LOW
+20200512_132832 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.438
+20200512_132834 / Sensor LOW
+20200512_132932 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.656 / 64 bed 0.551 / 62 couch 0.438 / 80 sink 0.402
+20200512_132934 / Sensor LOW
+20200512_133032 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.523 / 62 couch 0.461
+20200512_133034 / Sensor LOW
+20200512_133132 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.539 / 62 couch 0.449 / 64 bed 0.414
+20200512_133134 / Sensor LOW
+20200512_133232 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.539 / 62 couch 0.438 / 64 bed 0.414
+20200512_133234 / Sensor LOW
+20200512_133332 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.523 / 62 couch 0.438 / 64 bed 0.414 / 80 sink 0.402
+20200512_133334 / Sensor LOW
+20200512_133532 / Sensor HIGH / 680 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.523 / 62 couch 0.461
+20200512_133534 / Sensor LOW
+20200512_133632 / Sensor HIGH / 437 ms / Hektor was not detected... / 80 sink 0.656 / 64 bed 0.512 / 62 couch 0.426
+20200512_133634 / Sensor LOW
+20200512_133732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.656 / 64 bed 0.539 / 62 couch 0.414
+20200512_133733 / Sensor LOW
+20200512_133832 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.719 / 64 bed 0.539 / 62 couch 0.449 / 64 bed 0.402
+20200512_133834 / Sensor LOW
+20200512_133932 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.719 / 64 bed 0.551 / 62 couch 0.438 / 64 bed 0.402
+20200512_133934 / Sensor LOW
+20200512_134032 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.512 / 62 couch 0.438
+20200512_134034 / Sensor LOW
+20200512_134132 / Sensor HIGH / 449 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.523 / 62 couch 0.426
+20200512_134134 / Sensor LOW
+20200512_134232 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.523 / 64 bed 0.414
+20200512_134234 / Sensor LOW
+20200512_134332 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.523 / 62 couch 0.426
+20200512_134334 / Sensor LOW
+20200512_134432 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.551 / 62 couch 0.461
+20200512_134434 / Sensor LOW
+20200512_134532 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.539 / 62 couch 0.438
+20200512_134534 / Sensor LOW
+20200512_134632 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.426
+20200512_134634 / Sensor LOW
+20200512_134732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 62 couch 0.426
+20200512_134734 / Sensor LOW
+20200512_134832 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 62 couch 0.438
+20200512_134834 / Sensor LOW
+20200512_134932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.461
+20200512_134934 / Sensor LOW
+20200512_135032 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.539 / 62 couch 0.461
+20200512_135034 / Sensor LOW
+20200512_135132 / Sensor HIGH / 868 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.426
+20200512_135134 / Sensor LOW
+20200512_135232 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.598 / 64 bed 0.512 / 62 couch 0.438
+20200512_135234 / Sensor LOW
+20200512_135332 / Sensor HIGH / 448 ms / Hektor was not detected... / 80 sink 0.598 / 64 bed 0.512 / 62 couch 0.426 / 80 sink 0.414
+20200512_135334 / Sensor LOW
+20200512_135432 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.449 / 64 bed 0.402
+20200512_135434 / Sensor LOW
+20200512_135532 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.414 / 80 sink 0.402
+20200512_135534 / Sensor LOW
+20200512_135632 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 64 bed 0.414 / 62 couch 0.414 / 80 sink 0.402
+20200512_135634 / Sensor LOW
+20200512_135732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.680 / 64 bed 0.539 / 62 couch 0.477 / 64 bed 0.414
+20200512_135734 / Sensor LOW
+20200512_135832 / Sensor HIGH / 442 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 62 couch 0.438
+20200512_135834 / Sensor LOW
+20200512_135932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.523 / 62 couch 0.449 / 64 bed 0.402
+20200512_135934 / Sensor LOW
+20200512_140032 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.523 / 62 couch 0.461
+20200512_140034 / Sensor LOW
+20200512_140132 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.426 / 64 bed 0.402
+20200512_140134 / Sensor LOW
+20200512_140232 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.680 / 64 bed 0.512 / 80 sink 0.402
+20200512_140234 / Sensor LOW
+20200512_140332 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.500 / 62 couch 0.426
+20200512_140334 / Sensor LOW
+20200512_140432 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.438
+20200512_140434 / Sensor LOW
+20200512_140632 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.500 / 62 couch 0.438
+20200512_140634 / Sensor LOW
+20200512_140732 / Sensor HIGH / 459 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.426
+20200512_140734 / Sensor LOW
+20200512_140832 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.438
+20200512_140834 / Sensor LOW
+20200512_140932 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.523 / 62 couch 0.438
+20200512_140934 / Sensor LOW
+20200512_141032 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.426
+20200512_141034 / Sensor LOW
+20200512_141132 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.414
+20200512_141134 / Sensor LOW
+20200512_141232 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.488 / 62 couch 0.402
+20200512_141234 / Sensor LOW
+20200512_141332 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.512 / 62 couch 0.426
+20200512_141334 / Sensor LOW
+20200512_141432 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.539 / 62 couch 0.414 / 64 bed 0.414
+20200512_141434 / Sensor LOW
+20200512_141517 / Sensor HIGH / 442 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.539 / 80 sink 0.402 / 64 bed 0.402
+20200512_141519 / Sensor LOW
+20200512_141532 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.414
+20200512_141534 / Sensor LOW
+20200512_141632 / Sensor HIGH / 440 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.539 / 80 sink 0.426 / 64 bed 0.414
+20200512_141634 / Sensor LOW
+20200512_141732 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.609 / 64 bed 0.488 / 62 couch 0.461
+20200512_141734 / Sensor LOW
+20200512_141832 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.512 / 62 couch 0.414
+20200512_141834 / Sensor LOW
+20200512_141932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.523 / 62 couch 0.438
+20200512_141934 / Sensor LOW
+20200512_142032 / Sensor HIGH / 435 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.449
+20200512_142034 / Sensor LOW
+20200512_142132 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.680 / 64 bed 0.488 / 62 couch 0.414
+20200512_142134 / Sensor LOW
+20200512_142232 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.656 / 64 bed 0.488 / 62 couch 0.414
+20200512_142234 / Sensor LOW
+20200512_142332 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.500 / 62 couch 0.449
+20200512_142334 / Sensor LOW
+20200512_142432 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.512 / 62 couch 0.414
+20200512_142434 / Sensor LOW
+20200512_142632 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.539 / 62 couch 0.449
+20200512_142634 / Sensor LOW
+20200512_142653 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.523 / 62 couch 0.449
+20200512_142655 / Sensor LOW
+20200512_142708 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.574 / 62 couch 0.449 / 64 bed 0.414
+20200512_142710 / Sensor LOW
+20200512_142721 / Sensor HIGH / 450 ms / Hektor was not detected... / 80 sink 0.680 / 64 bed 0.586 / 62 couch 0.477
+20200512_142723 / Sensor MEDIUM
+20200512_142732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.668 / 64 bed 0.562 / 62 couch 0.461
+20200512_142734 / Sensor LOW
+20200512_142755 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.711 / 64 bed 0.551 / 62 couch 0.461
+20200512_142757 / Sensor LOW
+20200512_142832 / Sensor HIGH / 447 ms / Hektor was not detected... / 80 sink 0.688 / 64 bed 0.539 / 62 couch 0.426
+20200512_142834 / Sensor LOW
+20200512_142932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.680 / 64 bed 0.500 / 62 couch 0.438
+20200512_142934 / Sensor LOW
+20200512_143032 / Sensor HIGH / 437 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.512 / 62 couch 0.461
+20200512_143034 / Sensor LOW
+20200512_143132 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.512 / 62 couch 0.438
+20200512_143134 / Sensor LOW
+20200512_143218 / Sensor HIGH / 452 ms / Hektor was not detected... / 0 person 0.562 / 64 bed 0.539 / 0 person 0.488 / 64 bed 0.477 / 0 person 0.461 / 0 person 0.414 / 64 bed 0.414 / 0 person 0.402
+20200512_143219 / Sensor MEDIUM
+20200512_143222 / Sensor HIGH / 446 ms / Hektor was not detected... / 64 bed 0.512 / 69 toilet 0.426
+20200512_143224 / Sensor LOW
+20200512_143225 / Sensor HIGH / 447 ms / Hektor was not detected... / 64 bed 0.539 / 69 toilet 0.477 / 69 toilet 0.477 / 0 person 0.477 / 69 toilet 0.414
+20200512_143227 / Sensor MEDIUM
+20200512_143228 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.512 / 62 couch 0.438 / 80 sink 0.402
+20200512_143229 / Sensor LOW
+20200512_143232 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.609 / 62 couch 0.523 / 80 sink 0.402
+20200512_143234 / Sensor LOW
+20200512_143332 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.512 / 62 couch 0.402
+20200512_143334 / Sensor LOW
+20200512_143432 / Sensor HIGH / 449 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551
+20200512_143434 / Sensor LOW
+20200512_143532 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.414
+20200512_143534 / Sensor LOW
+20200512_143632 / Sensor HIGH / 897 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.414 / 80 sink 0.402
+20200512_143634 / Sensor LOW
+20200512_143732 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.523 / 62 couch 0.477
+20200512_143734 / Sensor LOW
+20200512_143832 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.414
+20200512_143834 / Sensor LOW
+20200512_143932 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.539 / 62 couch 0.461
+20200512_143934 / Sensor LOW
+20200512_144032 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.562 / 62 couch 0.461
+20200512_144034 / Sensor LOW
+20200512_144132 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.449
+20200512_144134 / Sensor LOW
+20200512_144232 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.598 / 62 couch 0.551 / 62 couch 0.414
+20200512_144234 / Sensor LOW
+20200512_144332 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.609 / 62 couch 0.574
+20200512_144334 / Sensor LOW
+20200512_144432 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.609 / 62 couch 0.551 / 62 couch 0.414
+20200512_144434 / Sensor LOW
+20200512_144532 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.523 / 80 sink 0.438 / 62 couch 0.414
+20200512_144534 / Sensor LOW
+20200512_144632 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.438
+20200512_144634 / Sensor LOW
+20200512_144732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.438
+20200512_144734 / Sensor LOW
+20200512_144832 / Sensor HIGH / 866 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.523 / 62 couch 0.449
+20200512_144834 / Sensor LOW
+20200512_144932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.523 / 64 bed 0.488 / 62 couch 0.438
+20200512_144934 / Sensor LOW
+20200512_145032 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.449
+20200512_145034 / Sensor LOW
+20200512_145132 / Sensor HIGH / 448 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.523 / 62 couch 0.449
+20200512_145134 / Sensor LOW
+20200512_145232 / Sensor HIGH / 437 ms / Hektor was not detected... / 80 sink 0.621 / 64 bed 0.512 / 62 couch 0.477 / 62 couch 0.402
+20200512_145234 / Sensor LOW
+20200512_145332 / Sensor HIGH / 448 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.539 / 62 couch 0.426 / 80 sink 0.414
+20200512_145334 / Sensor LOW
+20200512_145432 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.539 / 62 couch 0.449
+20200512_145434 / Sensor LOW
+20200512_145532 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.438
+20200512_145534 / Sensor LOW
+20200512_145632 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.539 / 62 couch 0.449 / 80 sink 0.402
+20200512_145634 / Sensor LOW
+20200512_145732 / Sensor HIGH / 458 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.551 / 62 couch 0.461
+20200512_145734 / Sensor LOW
+20200512_145832 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.539 / 62 couch 0.438
+20200512_145834 / Sensor LOW
+20200512_145932 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.551 / 62 couch 0.461
+20200512_145934 / Sensor LOW
+20200512_150032 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.461
+20200512_150034 / Sensor LOW
+20200512_150132 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.438
+20200512_150134 / Sensor LOW
+20200512_150232 / Sensor HIGH / 458 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.551 / 62 couch 0.438
+20200512_150234 / Sensor LOW
+20200512_150332 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.512 / 62 couch 0.438
+20200512_150334 / Sensor LOW
+20200512_150432 / Sensor HIGH / 439 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.449 / 80 sink 0.402
+20200512_150434 / Sensor LOW
+20200512_150632 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.539 / 62 couch 0.461
+20200512_150634 / Sensor LOW
+20200512_150732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.449
+20200512_150734 / Sensor LOW
+20200512_150832 / Sensor HIGH / 441 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.539 / 62 couch 0.461
+20200512_150834 / Sensor LOW
+20200512_150932 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.449 / 80 sink 0.402
+20200512_150934 / Sensor LOW
+20200512_151032 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.621 / 62 couch 0.539 / 62 couch 0.461
+20200512_151034 / Sensor LOW
+20200512_151132 / Sensor HIGH / 437 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.539 / 62 couch 0.449
+20200512_151134 / Sensor LOW
+20200512_151232 / Sensor HIGH / 867 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.449 / 80 sink 0.402
+20200512_151234 / Sensor LOW
+20200512_151332 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.438
+20200512_151334 / Sensor LOW
+20200512_151432 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.449
+20200512_151434 / Sensor LOW
+20200512_151532 / Sensor HIGH / 445 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.461
+20200512_151534 / Sensor LOW
+20200512_151732 / Sensor HIGH / 446 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.461 / 64 bed 0.449
+20200512_151734 / Sensor LOW
+20200512_151832 / Sensor HIGH / 455 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.551 / 62 couch 0.477 / 64 bed 0.449 / 80 sink 0.402
+20200512_151834 / Sensor LOW
+20200512_151932 / Sensor HIGH / 849 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.523 / 62 couch 0.449 / 80 sink 0.402
+20200512_151934 / Sensor LOW
+20200512_152132 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.477
+20200512_152134 / Sensor LOW
+20200512_152232 / Sensor HIGH / 457 ms / Hektor was not detected... / 80 sink 0.656 / 62 couch 0.512 / 62 couch 0.488 / 80 sink 0.414
+20200512_152234 / Sensor LOW
+20200512_152432 / Sensor HIGH / 866 ms / Hektor was not detected... / 80 sink 0.645 / 64 bed 0.512 / 62 couch 0.488
+20200512_152434 / Sensor LOW
+20200512_152532 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.539 / 62 couch 0.461
+20200512_152534 / Sensor LOW
+20200512_152556 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.656 / 62 couch 0.551 / 62 couch 0.477
+20200512_152558 / Sensor MEDIUM
+20200512_152632 / Sensor HIGH / 866 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.523 / 64 bed 0.488 / 62 couch 0.438 / 80 sink 0.426 / 64 bed 0.414
+20200512_152634 / Sensor LOW
+20200512_152716 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 64 bed 0.512 / 62 couch 0.488
+20200512_152717 / Sensor LOW
+20200512_152732 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.633 / 62 couch 0.523 / 62 couch 0.426 / 80 sink 0.414
+20200512_152734 / Sensor LOW
+20200512_152832 / Sensor HIGH / 436 ms / Hektor was not detected... / 80 sink 0.645 / 62 couch 0.551 / 62 couch 0.449 / 80 sink 0.402
+20200512_152834 / Sensor LOW
+20200512_152853 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.477
+20200512_152855 / Sensor MEDIUM
+20200512_152857 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.449 / 64 bed 0.414 / 64 bed 0.402
+20200512_152858 / Sensor LOW
+20200512_152904 / Sensor HIGH / 436 ms / Hektor was not detected... / 69 toilet 0.586 / 62 couch 0.426 / 69 toilet 0.402
+20200512_152905 / Sensor LOW
+20200512_152908 / Sensor HIGH / 436 ms / Hektor was detected! / 16 cat 0.719 / 0 person 0.551 / 16 cat 0.438
+20200512_152910 / Sensor MEDIUM
+20200512_152916 / Sensor HIGH / 447 ms / Hektor was not detected... / 0 person 0.512 / 0 person 0.402
+20200512_152917 / Sensor MEDIUM
+20200512_152918 / Sensor HIGH / 456 ms / Hektor was not detected... / 0 person 0.461 / 0 person 0.402
+20200512_152920 / Sensor MEDIUM
+20200512_152921 / Sensor HIGH / 436 ms / Hektor was not detected...
+20200512_152923 / Sensor LOW
+20200512_152924 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.477 / 69 toilet 0.449 / 69 toilet 0.414
+20200512_152925 / Sensor MEDIUM
+20200512_152931 / Sensor HIGH / 436 ms / Hektor was detected! / 16 cat 0.551 / 17 dog 0.477 / 69 toilet 0.438
+20200512_152933 / Sensor MEDIUM
+20200512_152939 / Sensor HIGH / 439 ms / Hektor was detected! / 62 couch 0.621 / 61 chair 0.512 / 16 cat 0.438 / 61 chair 0.426
+20200512_152942 / Sensor MEDIUM
+20200512_152943 / Sensor HIGH / 714 ms / Hektor was not detected... / 64 bed 0.488 / 64 bed 0.449
+20200512_152944 / Sensor MEDIUM
+20200512_152945 / Sensor HIGH / 446 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.500 / 61 chair 0.461 / 46 cup 0.449 / 0 person 0.402
+20200512_152947 / Sensor MEDIUM
+20200512_153001 / Sensor HIGH / 451 ms / Hektor was not detected... / 0 person 0.500 / 64 bed 0.488 / 61 chair 0.488 / 64 bed 0.461 / 61 chair 0.414
+20200512_153002 / Sensor LOW
+20200512_153032 / Sensor HIGH / 639 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.500 / 61 chair 0.488 / 61 chair 0.461 / 46 cup 0.414
+20200512_153034 / Sensor LOW
+20200512_153047 / Sensor HIGH / 749 ms / Hektor was not detected... / 64 bed 0.586 / 61 chair 0.449 / 61 chair 0.449 / 64 bed 0.438 / 46 cup 0.414
+20200512_153049 / Sensor LOW
+20200512_153120 / Sensor HIGH / 438 ms / Hektor was not detected... / 64 bed 0.488 / 61 chair 0.449 / 61 chair 0.426 / 64 bed 0.426 / 46 cup 0.414
+20200512_153121 / Sensor LOW
+20200512_153128 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.500 / 61 chair 0.438 / 61 chair 0.438 / 64 bed 0.426 / 46 cup 0.402
+20200512_153129 / Sensor MEDIUM
+20200512_153130 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.449 / 61 chair 0.449 / 46 cup 0.438 / 61 chair 0.426
+20200512_153132 / Sensor MEDIUM
+20200512_153232 / Sensor HIGH / 445 ms / Hektor was not detected... / 64 bed 0.500 / 64 bed 0.449 / 61 chair 0.438 / 61 chair 0.426 / 46 cup 0.414
+20200512_153234 / Sensor LOW
+20200512_153305 / Sensor HIGH / 439 ms / Hektor was not detected... / 64 bed 0.512 / 61 chair 0.449 / 64 bed 0.449 / 61 chair 0.426 / 46 cup 0.414
+20200512_153307 / Sensor LOW
+20200512_153318 / Sensor HIGH / 440 ms / Hektor was not detected... / 64 bed 0.512 / 61 chair 0.449 / 64 bed 0.449 / 61 chair 0.426 / 46 cup 0.414
+20200512_153319 / Sensor LOW
+20200512_153332 / Sensor HIGH / 447 ms / Hektor was not detected... / 64 bed 0.512 / 61 chair 0.438 / 61 chair 0.438 / 64 bed 0.438 / 46 cup 0.426
+20200512_153334 / Sensor LOW
+20200512_153432 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.500 / 61 chair 0.449 / 64 bed 0.438 / 61 chair 0.426
+20200512_153434 / Sensor LOW
+20200512_153457 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.449 / 61 chair 0.449 / 61 chair 0.426 / 46 cup 0.426
+20200512_153458 / Sensor LOW
+20200512_153459 / Sensor HIGH / 437 ms / Hektor was not detected... / 64 bed 0.512 / 61 chair 0.438 / 46 cup 0.438 / 64 bed 0.438 / 61 chair 0.438
+20200512_153501 / Sensor LOW
+20200512_153507 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.449 / 61 chair 0.449 / 61 chair 0.438 / 46 cup 0.402
+20200512_153509 / Sensor LOW
+20200512_153513 / Sensor HIGH / 442 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.461 / 61 chair 0.449 / 61 chair 0.438 / 46 cup 0.402
+20200512_153515 / Sensor LOW
+20200512_153532 / Sensor HIGH / 439 ms / Hektor was not detected... / 64 bed 0.523 / 64 bed 0.449 / 61 chair 0.438 / 61 chair 0.438
+20200512_153534 / Sensor LOW
+20200512_153632 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.523 / 61 chair 0.449 / 64 bed 0.438 / 61 chair 0.426
+20200512_153634 / Sensor LOW
+20200512_153717 / Sensor HIGH / 449 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.449 / 61 chair 0.414 / 46 cup 0.414 / 61 chair 0.402
+20200512_153719 / Sensor LOW
+20200512_153732 / Sensor HIGH / 449 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.438 / 61 chair 0.426 / 46 cup 0.414 / 61 chair 0.414
+20200512_153734 / Sensor LOW
+20200512_153755 / Sensor HIGH / 450 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.461 / 61 chair 0.438 / 61 chair 0.414
+20200512_153757 / Sensor LOW
+20200512_153759 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.500 / 64 bed 0.449 / 46 cup 0.426 / 61 chair 0.426 / 61 chair 0.414
+20200512_153801 / Sensor LOW
+20200512_153832 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.500 / 64 bed 0.449 / 61 chair 0.449 / 61 chair 0.438 / 46 cup 0.414
+20200512_153834 / Sensor LOW
+20200512_153930 / Sensor HIGH / 436 ms / Hektor was not detected... / 64 bed 0.488 / 64 bed 0.449 / 64 bed 0.449 / 61 chair 0.438 / 61 chair 0.438
+20200512_153932 / Sensor MEDIUM
+20200512_153933 / Sensor HIGH / 866 ms / Hektor was not detected... / 64 bed 0.523 / 64 bed 0.477 / 61 chair 0.438 / 61 chair 0.426
+20200512_153935 / Sensor LOW
+20200512_154032 / Sensor HIGH / 787 ms / Hektor was not detected... / 64 bed 0.512 / 64 bed 0.449 / 61 chair 0.426 / 46 cup 0.426 / 61 chair 0.414
+20200512_154034 / Sensor LOW
+                                         20200512_153607: System started.

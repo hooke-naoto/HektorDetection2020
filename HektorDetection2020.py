@@ -196,7 +196,7 @@ try:
             time.sleep(0.4)
 
             #### Sensor HIGH kept or not ####
-            if Counter >=  3:
+            if Counter >=  4:
                 
                 GPIO.output(LED, GPIO.HIGH) #### for LED ####
                 
@@ -244,7 +244,8 @@ try:
                     os.rename(file_path, file_path_revised)
                     send_line("Hektor was detected!", file_path_revised)
                     Files = sorted(glob.glob(dir_sound + "/*.wav"))
-                    os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+#                     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+                    time.sleep(1)
                 else:
                     ID_data = ID_data + " / Hektor was not detected..."
                     os.remove(file_path)
@@ -272,11 +273,11 @@ try:
         DoRecord = 0
         if StatusSensor == "high":
             DoRecord = 1
-        if StatusSensorLast == "high":
-            if StatusSensor == "medium":
-                DoRecord = 1
-            if StatusSensor == "low":
-                DoRecord = 1
+#         if StatusSensorLast == "high":
+#             if StatusSensor == "medium":
+#                 DoRecord = 1
+#             if StatusSensor == "low":
+#                 DoRecord = 1
         if DoRecord == 1:
             print (ID_data)
             fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
