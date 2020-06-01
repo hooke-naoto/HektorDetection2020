@@ -196,11 +196,7 @@ try:
             time.sleep(0.1)
 
             #### Sensor HIGH kept or not ####
-<<<<<<< HEAD
-            if Counter >=  4:
-=======
-            if Counter >=  5:
->>>>>>> b3b9154ef2eee6eb65b14ab7fad0b95c97edfa1f
+            if Counter >= 1:
                 
                 GPIO.output(LED, GPIO.HIGH) #### for LED ####
                 
@@ -251,7 +247,7 @@ try:
                         LINE_message = LINE_message + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                     send_line(LINE_message, file_path_revised)
                     Files = sorted(glob.glob(dir_sound + "/*.wav"))
-#                     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+                    os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
                     time.sleep(1)
                 else:
                     ID_data = ID_data + " / Hektor was not detected..."
