@@ -20,6 +20,7 @@ camera_height = 480
 # General
 import io
 import os
+import subprocess
 import sys
 sys.dont_write_bytecode = True # Avoid cache folder and files.
 import argparse
