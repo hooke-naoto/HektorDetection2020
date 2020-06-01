@@ -142,8 +142,8 @@ try:
     StatusSensor = "low"
     StatusSensorLast = "low"
     parser = argparse.ArgumentParser(formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--model', help='File path of .tflite file.', required=True)
-    parser.add_argument('--labels', help='File path of labels file.', required=True)
+    parser.add_argument('--model', help='File path of .tflite file.', required=False, default='/home/pi/programs/HektorDetection2020/tflite/detect.tflite')
+    parser.add_argument('--labels', help='File path of labels file.', required=False, default='/home/pi/programs/HektorDetection2020/tflite/coco_labels.txt')
     parser.add_argument('--threshold', help='Threshold for detection.', required=False, type=float, default=0.4)
     args = parser.parse_args()
     labels = load_labels(args.labels)
@@ -246,7 +246,7 @@ try:
                     for obj in results:
                         LINE_message = LINE_message + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                     send_line(LINE_message, file_path_revised)
-                    Files = sorted(glob.glob(dir_sound + "/*.wav"))
+                    Files = sorted(glob.glob(dir_sound + "/*.mp3"))
                     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
                     time.sleep(1)
                 else:
