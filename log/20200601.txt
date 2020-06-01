@@ -792,3 +792,92 @@
 20200601_130452 / Sensor HIGH / 437 ms / Hektor was not detected...
 20200601_130821: System started.
 20200601_131757 / Sensor HIGH / 502 ms / Hektor was not detected... / 27 umbrella 0.461
+20200601_131956 / Sensor HIGH / 834 ms / Hektor was not detected... / 27 umbrella 0.488
+20200601_132024 / Sensor HIGH / 494 ms / Hektor was not detected... / 27 umbrella 0.512
+20200601_132056 / Sensor HIGH / 439 ms / Hektor was not detected... / 27 umbrella 0.477
+20200601_132156 / Sensor HIGH / 436 ms / Hektor was not detected... / 27 umbrella 0.449
+20200601_132456 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.512
+20200601_132556 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.488
+20200601_132656 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.477
+20200601_132756 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.488
+20200601_132856 / Sensor HIGH / 436 ms / Hektor was not detected... / 0 person 0.477
+20200601_132956 / Sensor HIGH / 436 ms / Hektor was not detected... / 27 umbrella 0.438
+20200601_133156 / Sensor HIGH / 475 ms / Hektor was not detected... / 27 umbrella 0.438
+20200601_133257 / Sensor HIGH / 491 ms / Hektor was not detected... / 27 umbrella 0.500
+20200601_133356 / Sensor HIGH / 466 ms / Hektor was not detected... / 27 umbrella 0.477
+20200601_133556 / Sensor HIGH / 493 ms / Hektor was not detected... / 27 umbrella 0.500
+20200601_134129 / Sensor HIGH / 443 ms / Hektor was not detected...
+20200601_134131 / Sensor HIGH / 491 ms / Hektor was not detected... / 64 bed 0.512
+20200601_134256 / Sensor HIGH / 493 ms / Hektor was not detected... / 64 bed 0.488 / 37 kite 0.477
+20200601_134333 / Sensor HIGH / 847 ms / Hektor was not detected... / 37 kite 0.488 / 64 bed 0.488
+20200601_134356 / Sensor HIGH / 437 ms / Hektor was not detected... / 37 kite 0.477 / 64 bed 0.461
+20200601_134456 / Sensor HIGH / 862 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_134513 / Sensor HIGH / 446 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.512
+20200601_134514 / Sensor HIGH / 490 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.500
+20200601_134856 / Sensor HIGH / 492 ms / Hektor was not detected... / 37 kite 0.488 / 64 bed 0.488
+20200601_135056 / Sensor HIGH / 445 ms / Hektor was not detected... / 64 bed 0.512 / 37 kite 0.414 / 64 bed 0.402
+20200601_135216 / Sensor HIGH / 912 ms / Hektor was not detected... / 64 bed 0.488 / 37 kite 0.477
+20200601_135230 / Sensor HIGH / 926 ms / Hektor was not detected... / 64 bed 0.477
+20200601_135251 / Sensor HIGH / 463 ms / Hektor was not detected... / 64 bed 0.512 / 37 kite 0.477
+20200601_135258 / Sensor HIGH / 877 ms / Hektor was not detected... / 64 bed 0.477 / 37 kite 0.426
+20200601_135357 / Sensor HIGH / 903 ms / Hektor was not detected... / 64 bed 0.539 / 37 kite 0.438
+20200601_135557 / Sensor HIGH / 443 ms / Hektor was not detected... / 64 bed 0.488 / 37 kite 0.477
+20200601_135657 / Sensor HIGH / 444 ms / Hektor was not detected... / 64 bed 0.488 / 37 kite 0.461
+20200601_135956 / Sensor HIGH / 482 ms / Hektor was not detected... / 37 kite 0.477
+20200601_140056 / Sensor HIGH / 491 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.500
+20200601_140256 / Sensor HIGH / 505 ms / Hektor was not detected... / 37 kite 0.609 / 64 bed 0.488
+20200601_140305 / Sensor HIGH / 1141 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.500
+20200601_140357 / Sensor HIGH / 491 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.500
+20200601_140457 / Sensor HIGH / 493 ms / Hektor was not detected... / 37 kite 0.500 / 64 bed 0.500
+20200601_140502 / Sensor HIGH / 521 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.512 / 64 bed 0.402
+20200601_140510 / Sensor HIGH / 501 ms / Hektor was not detected... / 37 kite 0.551 / 64 bed 0.500 / 64 bed 0.402
+20200601_140511 / Sensor HIGH / 526 ms / Hektor was not detected... / 64 bed 0.500 / 37 kite 0.500
+20200601_140513 / Sensor HIGH / 876 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.500
+20200601_140515 / Sensor HIGH / 543 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.488
+20200601_140517 / Sensor HIGH / 445 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140520 / Sensor HIGH / 450 ms / Hektor was not detected... / 37 kite 0.500 / 64 bed 0.488
+20200601_140521 / Sensor HIGH / 655 ms / Hektor was not detected... / 37 kite 0.621 / 64 bed 0.523 / 64 bed 0.414
+20200601_140523 / Sensor HIGH / 915 ms / Hektor was not detected... / 64 bed 0.512 / 37 kite 0.500
+20200601_140527 / Sensor HIGH / 889 ms / Hektor was not detected... / 37 kite 0.500 / 64 bed 0.488
+20200601_140530 / Sensor HIGH / 451 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140532 / Sensor HIGH / 452 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.500
+20200601_140533 / Sensor HIGH / 476 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.500
+20200601_140534 / Sensor HIGH / 910 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.477
+20200601_140537 / Sensor HIGH / 611 ms / Hektor was not detected... / 37 kite 0.562 / 64 bed 0.512
+20200601_140539 / Sensor HIGH / 903 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.477
+20200601_140540 / Sensor HIGH / 517 ms / Hektor was not detected... / 64 bed 0.488 / 37 kite 0.488
+20200601_140542 / Sensor HIGH / 506 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.512
+20200601_140544 / Sensor HIGH / 642 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.488
+20200601_140545 / Sensor HIGH / 906 ms / Hektor was not detected... / 37 kite 0.562 / 64 bed 0.512
+20200601_140547 / Sensor HIGH / 804 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.523
+20200601_140549 / Sensor HIGH / 907 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140550 / Sensor HIGH / 749 ms / Hektor was not detected... / 37 kite 0.562 / 64 bed 0.461
+20200601_140552 / Sensor HIGH / 884 ms / Hektor was not detected... / 37 kite 0.586 / 64 bed 0.414
+20200601_140554 / Sensor HIGH / 813 ms / Hektor was not detected... / 37 kite 0.488 / 64 bed 0.488
+20200601_140556 / Sensor HIGH / 906 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140600 / Sensor HIGH / 907 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140602 / Sensor HIGH / 446 ms / Hektor was not detected... / 37 kite 0.562 / 64 bed 0.512
+20200601_140603 / Sensor HIGH / 458 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.488
+20200601_140604 / Sensor HIGH / 474 ms / Hektor was not detected... / 37 kite 0.574 / 64 bed 0.523
+20200601_140607 / Sensor HIGH / 452 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.461
+20200601_140608 / Sensor HIGH / 453 ms / Hektor was not detected... / 64 bed 0.500 / 37 kite 0.488
+20200601_140624 / Sensor HIGH / 451 ms / Hektor was not detected... / 37 kite 0.523 / 64 bed 0.512 / 64 bed 0.402
+20200601_140657 / Sensor HIGH / 911 ms / Hektor was not detected... / 37 kite 0.500 / 64 bed 0.477
+20200601_140708 / Sensor HIGH / 512 ms / Hektor was not detected... / 64 bed 0.477 / 37 kite 0.477
+20200601_140710 / Sensor HIGH / 914 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140723 / Sensor HIGH / 474 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.488
+20200601_140756 / Sensor HIGH / 744 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.488
+20200601_140759 / Sensor HIGH / 848 ms / Hektor was not detected... / 64 bed 0.402
+20200601_140801 / Sensor HIGH / 448 ms / Hektor was not detected... / 37 kite 0.562 / 64 bed 0.402
+20200601_140802 / Sensor HIGH / 497 ms / Hektor was not detected... / 37 kite 0.500 / 64 bed 0.500
+20200601_140804 / Sensor HIGH / 888 ms / Hektor was not detected... / 37 kite 0.633 / 64 bed 0.512 / 64 bed 0.402
+20200601_140808 / Sensor HIGH / 648 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.500 / 64 bed 0.402
+20200601_140810 / Sensor HIGH / 890 ms / Hektor was not detected... / 37 kite 0.512 / 64 bed 0.488
+20200601_140812 / Sensor HIGH / 446 ms / Hektor was not detected... / 64 bed 0.477 / 64 bed 0.449 / 0 person 0.426 / 0 person 0.414
+20200601_140814 / Sensor HIGH / 444 ms / Hektor was not detected... / 64 bed 0.551 / 37 kite 0.449
+20200601_140816 / Sensor HIGH / 450 ms / Hektor was not detected... / 64 bed 0.551 / 37 kite 0.512
+20200601_140817 / Sensor HIGH / 468 ms / Hektor was not detected... / 37 kite 0.586 / 64 bed 0.551
+20200601_140821 / Sensor HIGH / 719 ms / Hektor was not detected... / 64 bed 0.586 / 37 kite 0.562
+20200601_140823 / Sensor HIGH / 941 ms / Hektor was not detected... / 37 kite 0.539 / 64 bed 0.523
+20200601_140957 / Sensor HIGH / 922 ms / Hektor was not detected... / 37 kite 0.586 / 64 bed 0.574
+20200601_141056 / Sensor HIGH / 448 ms / Hektor was not detected... / 64 bed 0.574 / 37 kite 0.551
