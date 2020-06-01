@@ -151,7 +151,8 @@ try:
     interpreter.allocate_tensors()
     _, input_height, input_width, _ = interpreter.get_input_details()[0]['shape']
 
-    # [System started.] will be recorded to log file and notified to LINE.
+    # [System started.] Sound, Log file, LINE
+    subprocess.call("vlc -I rc --play-and-exit start.mp3", shell=True)
     d = datetime.datetime.now()
     fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
     fileobj.write(d.strftime("%Y%m%d_%H%M%S") + ": System started." + "\n")
@@ -165,17 +166,18 @@ try:
         time.sleep(0.05)
 
     while True:
+
         d = datetime.datetime.now()
         ID = d.strftime("%Y%m%d_%H%M%S")
         ID_data = ID
 
         ######## Storage Management ########
-        # Remove oldest 10 files and empty directories if free storage is less than 4GB.
+        # Remove oldest 10 files and empty directories if free storage is less.
         FreeGB = psutil.disk_usage('/').free / 1024 / 1024 / 1024
-        if FreeGB < 1:
-            Files = sorted(glob.glob(dir_image + "/*/*.jpg"))
+        if FreeGB < 1:    # GB
+            Files = sorted(glob.glob(dir_image + "*/*.jpg"))
             for F in Files:
-                if Files.index(F) < 10:
+                if Files.index(F) < 100:
                     os.remove(F)
                     RemoveNum = Files.index(F) + 1
             for D in glob.glob(dir_image + "/*"):
@@ -247,7 +249,7 @@ try:
                         LINE_message = LINE_message + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                     send_line(LINE_message, file_path_revised)
                     Files = sorted(glob.glob(dir_sound + "*.mp3"))
-                    os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
+                    subprocess.call("vlc -I rc --play-and-exit "  + Files[random.randint(0, len(Files) - 1)], shell=True)
                     time.sleep(1)
                 else:
                     ID_data = ID_data + " / Hektor was not detected..."
