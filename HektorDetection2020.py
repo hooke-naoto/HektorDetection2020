@@ -150,7 +150,7 @@ try:
     interpreter = Interpreter(args.model)
     interpreter.allocate_tensors()
     _, input_height, input_width, _ = interpreter.get_input_details()[0]['shape']
-    
+
     # [System started.] will be recorded to log file and notified to LINE.
     d = datetime.datetime.now()
     fileobj = open("log/" + d.strftime("%Y%m%d") + ".txt", "a")
@@ -168,7 +168,7 @@ try:
         d = datetime.datetime.now()
         ID = d.strftime("%Y%m%d_%H%M%S")
         ID_data = ID
-        
+
         ######## Storage Management ########
         # Remove oldest 10 files and empty directories if free storage is less than 4GB.
         FreeGB = psutil.disk_usage('/').free / 1024 / 1024 / 1024
@@ -197,9 +197,9 @@ try:
 
             #### Sensor HIGH kept or not ####
             if Counter >= 1:
-                
+
                 GPIO.output(LED, GPIO.HIGH) #### for LED ####
-                
+
                 ID_data = ID_data + " / Sensor HIGH"
                 StatusSensor = "high"
                 Counter = 0
@@ -246,26 +246,26 @@ try:
                     for obj in results:
                         LINE_message = LINE_message + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                     send_line(LINE_message, file_path_revised)
-                    Files = sorted(glob.glob(dir_sound + "/*.mp3"))
+                    Files = sorted(glob.glob(dir_sound + "*.mp3"))
                     os.system("aplay " + Files[random.randint(0, len(Files) - 1)])
                     time.sleep(1)
                 else:
                     ID_data = ID_data + " / Hektor was not detected..."
                     os.remove(file_path)
                 #### Action #### END
-                    
+
                 #### Detected info ####
                 for obj in results:
                     ID_data = ID_data + " / " + str(int(obj["class_id"])) + " " + labels[obj["class_id"]] + " " + "{:.3f}".format(obj["score"])
                 #### Detected info #### END
-                      
+
                 GPIO.output(LED, GPIO.LOW) #### for LED ####
-                
+
             else:
                 ID_data = ID_data + " / Sensor MEDIUM"
                 StatusSensor = "medium"
             #### Sensor HIGH kept or not #### END
-                      
+
         else:
             # Reset the counter if sensor LOW appears.
             Counter = 0
